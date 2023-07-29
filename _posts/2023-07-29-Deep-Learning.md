@@ -10,15 +10,11 @@ comments: true
 
 # **ReLU Nonlinearity**
 
-$$
-f(x)=max(0,x)
-$$
+![1](http://latex.codecogs.com/svg.latex?f(x)=max(0,x))
+
 
 # **传统的饱和非线性**
-
-$$
-f(x) = \frac{1}{1+e^{-x}}
-$$
+![2](http://latex.codecogs.com/svg.latex?f(x) = \frac{1}{1+e^{-x}})
 
 $$
 tanh(x) = \frac{e^x+e^{-x}}{e^x+e^{-x}}
