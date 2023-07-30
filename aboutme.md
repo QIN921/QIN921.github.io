@@ -41,8 +41,4 @@ Extra Section
 
 ----
 
-> <zhouchuqin2002@foxmail.com>
-
-> 20 years old
-
-> Address - Wuhan, Hubei, China
+> <zhouchuqin2002@foxmail.com> ||| 20 years old ||| Address - Wuhan, Hubei, China
