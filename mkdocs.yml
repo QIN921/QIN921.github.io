@@ -123,48 +123,31 @@ extra:
 
 nav:
   - 首页: index.md
-  - 一起学 GitHub:
-      - 如何提交 PR: github/01_how_to_pr.md
-      - 如何通过 PR 学习: github/02_learn_from_pr.md
-      - github SSH免密码登录设置: github/03_SSH_for_github.md
-      - 美化代码工具分享: github/04_beauty_code.md
-      - 快速上手 Markdown: github/05_get_started_with_Markdown.md
-      - MkDocs 工具使用: github/06_Mkdocs.md
-      - GitHub Pages 的生成和使用: github/07_GitHub_Pages.md
-      - GitHub Actions 介绍 & 使用: github/08_GitHub_Actions.md
-      - 解决 Git 冲突 Merge Conflicts: github/09_merge_conflicts.md
-      - 删除指定 commit 小妙招 git rebase: github/10_git_rebase.md
-
-  - 研究 C++ 新语法:
-      - 右值引用: learn_cpp/01_rvalue_ref.md
-      - 完美转发: learn_cpp/02_forward.md
-      - 可变参模板: learn_cpp/03_varadic_template.md
-      - 单例模式: learn_cpp/04_singleton.md
-      - 类型别名：从 typedef 到 using: learn_cpp/05_using_against_typedef.md
-      - 仿函数: learn_cpp/06_functor.md
-      - 编译链接和宏本质: learn_cpp/07_complie_link_macro.md
-      - 模板 template: learn_cpp/08_template.md
-      - 模板特例: learn_cpp/09_template_special.md
-      - 搞懂 SFINAE: learn_cpp/11_template_sfinae.md
-      - enable_if 新标准: learn_cpp/012_enable_if.md
-      - enable_if 的重定义错误: learn_cpp/13_enable_if_redefine_mistake.md
-      - 模板元编程: learn_cpp/014_materials.md
-
+  - 自我介绍: self.md
   - 深度学习:
-      - Deep Learning: deep_learning/00_DeepLearning.md
-      - AlexNet： ImageNet Classification with Deep Convolutional Neural Networks: deep_learning/01_AlexNet.md
-      - VGG： Very Deep Convolutional Networks for Large-Scale Image Recognition: deep_learning/02_VGG.md
-      - ResNet：Deep Residual Learning for Image Recognition: deep_learning/03_ResNet.md
-      - MobileNet：Efficient Convolutional Neural Networks for Mobile Vision Applications: deep_learning/04_MoblieNets.md
-      - GoogLeNet: deep_learning/05_GoogLeNet.md
-      - R-CNN：Rich feature hierarchies for accurate object detection and semantic segmentation Tech report: deep_learning/06_R-CNN.md
-      - Fast R-CNN: deep_learning/07_Fast_R-CNN.md
-      - Faster R-CNN： Towards Real-Time Object Detection with Region Proposal Networks: deep_learning/08_Faster_R-CNN.md
-      - YOLO v1：You Only Look Once： Unified, Real-Time Object Detection: deep_learning/09_YOLO_v1.md
-      - YOLOv2：YOLO9000：Better, Faster, Stronger: deep_learning/10_YOLO_v2.md
-      - GAN：Generative Adversarial Nets: deep_learning/11_GAN.md
-      - WANN：Weight Agnostic Neural Networks: deep_learning/12_WANN.md
-      - ViT：An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale: deep_learning/13_Vit.md
-      - SwinT：Swin Transformer： Hierarchical Vision Transformer using Shifted Windows: deep_learning/14_SwinT.md
-      - 杂: deep_learning/other.md
+    - Dive into deep learning: deep_learning/Dive_into_deep_learning.md
+    - Image Classification: 
+      - AlexNet: deep_learning/AlexNet.md
+      - VGG: deep_learning/VGG.md
+      - ResNet: deep_learning/ResNet.md
+      - MobileNets: deep_learning/MobileNets.md
+      - GoogLeNet: deep_learning/GoogLeNet.md
+    - Object Detection: 
+      - R-CNN: deep_learning/R-CNN.md
+      - Fast R-CNN: deep_learning/Fast_R-CNN.md
+      - Faster R-CNN: deep_learning/Faster_R-CNN.md
+      - YOLO v1: deep_learning/YOLO_v1.md
+      - YOLO v2: deep_learning/YOLOv2.md
+    - Instance Segmentation:
+      - U-Net: deep_learning/U-Net.md
+      - PSPNet: deep_learning/PSPNet.md
+      - DeepLabv3+: deep_learning/DeepLabv3+.md
+    - Other:
+      - GAN: deep_learning/GAN.md
+      - Transformer: deep_learning/Transformer.md
+      - Deformable Convolutional Networks: deep_learning/DCN.md
+    - Chaos: deep_learning/CHAOS.md
+      # - WANN：Weight Agnostic Neural Networks: deep_learning/12_WANN.md
+      # - ViT：An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale: deep_learning/13_Vit.md
+      # - SwinT：Swin Transformer： Hierarchical Vision Transformer using Shifted Windows: deep_learning/14_SwinT.md
 
