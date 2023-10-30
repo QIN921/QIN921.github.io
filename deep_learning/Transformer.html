@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://qin921.github.io/index.html">
+        <link rel="canonical" href="https://qin921.github.io/deep_learning/Transformer.html">
       
       
+        <link rel="prev" href="GAN.html">
       
-        <link rel="next" href="self.html">
+      
+        <link rel="next" href="DCN.html">
       
       
-      <link rel="icon" href="assets/logo.svg">
+      <link rel="icon" href="../assets/logo.svg">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.2.7">
     
     
       
-        <title>QIN's blog</title>
+        <title>Transformer - QIN's blog</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.046329b4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.046329b4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.85d0ee34.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.85d0ee34.min.css">
       
       
   
@@ -87,7 +89,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -115,6 +117,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#transformer-attention-is-all-you-need" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -127,9 +134,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="index.html" title="QIN&#39;s blog" class="md-header__button md-logo" aria-label="QIN's blog" data-md-component="logo">
+    <a href="../index.html" title="QIN&#39;s blog" class="md-header__button md-logo" aria-label="QIN's blog" data-md-component="logo">
       
-  <img src="assets/logo.svg" alt="logo">
+  <img src="../assets/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -146,7 +153,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              首页
+              Transformer
             
           </span>
         </div>
@@ -248,149 +255,10 @@
     <div class="md-container" data-md-component="container">
       
       
-
         
           
         
       
-<style>
-    .md-header {
-        position: initial
-    }
-
-    .md-main__inner {
-        margin: 0
-    }
-
-    .md-content {
-        display: none;
-    }
-
-    body {
-        overflow: hidden;
-        background: url('https://souga.eu.org/api/random');
-        background-size:
-            cover;
-        background-attachment: fixed;
-        height: 100vh;
-    }
-
-    .fuck-box {
-        width: 80vw;
-        height: 55vh;
-    }
-
-
-    @media screen and (min-width:60em) {
-        .md-sidebar--secondary {
-            display: none
-        }
-    }
-
-
-    @media screen and (min-width:76.25em) {
-        .md-sidebar--primary {
-            display: none
-        }
-    }
-
-    .typed-cursor {
-        opacity: 1;
-        animation: typedjsBlink 0.7s infinite;
-        -webkit-animation: typedjsBlink 0.7s infinite;
-        animation: typedjsBlink 0.7s infinite;
-    }
-
-    @keyframes typedjsBlink {
-        50% {
-            opacity: 0.0;
-        }
-    }
-
-    @-webkit-keyframes typedjsBlink {
-        0% {
-            opacity: 1;
-        }
-
-        50% {
-            opacity: 0.0;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
-    .typed-fade-out {
-        opacity: 0;
-        transition: opacity .25s;
-        -webkit-animation: 0;
-        animation: 0;
-    }
-
-
-    /* noto-sans-sc-regular */
-    @font-face {
-        font-family: 'Noto Sans SC';
-        font-style: normal;
-        font-weight: regular;
-        src: url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.eot');
-        /* IE9 Compat Modes */
-        src: local('Noto Sans SC'), local('NotoSans SC-Normal'),
-            url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.eot?#iefix') format('embedded-opentype'),
-            /* IE6-IE8 */
-            url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.woff2') format('woff2'),
-            /* Super Modern Browsers */
-            url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.woff') format('woff'),
-            /* Modern Browsers */
-            url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.ttf') format('truetype'),
-            /* Safari, Android, iOS */
-            url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.svg#NotoSans SC') format('svg');
-        /* Legacy iOS */
-    }
-</style>
-
-<link rel="preconnect" href="https://fonts.font.im">
-<link rel="preconnect" href="https://fonts.gstatic.font.im" crossorigin>
-<script src="https://lib.baomitu.com/typed.js/latest/typed.min.js"></script>
-
-<script>
-    window.onload = function () {
-        fetch('https://v1.hitokoto.cn?c=d&c=j&c=k')
-            .then(response => response.json())
-            .then(fuck => {
-                var typed = new Typed('#typed', {
-                    strings: ["欢迎来到我的博客", fuck.hitokoto.toString()],//输出的文字
-                    typeSpeed: 50,//打字的速度
-                    startDelay: 1000
-                });
-            })
-            .catch(console.error);
-    };
-</script>
-</script>
-<section class="mdx-container">
-    <div class="md-grid md-typeset">
-        <div class="mdx-hero">
-            <div class="mdx-hero__content" style="padding-left:10vw;padding-right:10vw;">
-                <h1 style="mix-blend-mode: lighten;color: white;font-weight:bolder;font-family:'Noto Sans SC'">
-                    <div class="fuck-box"></div>
-                    <span id="typed">
-                    </span>
-                </h1>
-                <a id="button_1" style="display: inline-block;" href="self.html"
-                    title="自我介绍" class="md-button md-button--primary">
-                    一起学习
-                </a>
-                <a id="button_2" style="display: inline-block;" href="https://github.com/QIN921"
-                    title="Github" class="md-button">
-                    <b style="mix-blend-mode: lighten;color: white;"> Github 仓库</b>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
           
@@ -405,9 +273,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="QIN&#39;s blog" class="md-nav__button md-logo" aria-label="QIN's blog" data-md-component="logo">
+    <a href="../index.html" title="QIN&#39;s blog" class="md-nav__button md-logo" aria-label="QIN's blog" data-md-component="logo">
       
-  <img src="assets/logo.svg" alt="logo">
+  <img src="../assets/logo.svg" alt="logo">
 
     </a>
     QIN's blog
@@ -431,16 +299,9 @@
       
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -449,7 +310,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -460,7 +320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="self.html" class="md-nav__link">
+      <a href="../self.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -477,17 +337,19 @@
       
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
@@ -500,7 +362,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             深度学习
@@ -513,7 +375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/Dive_into_deep_learning.html" class="md-nav__link">
+      <a href="Dive_into_deep_learning.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -567,7 +429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/AlexNet.html" class="md-nav__link">
+      <a href="AlexNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -587,7 +449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/VGG.html" class="md-nav__link">
+      <a href="VGG.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -607,7 +469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/ResNet.html" class="md-nav__link">
+      <a href="ResNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -627,7 +489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/MobileNets.md" class="md-nav__link">
+      <a href="MobileNets.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -647,7 +509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/GoogLeNet.html" class="md-nav__link">
+      <a href="GoogLeNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -709,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/R-CNN.html" class="md-nav__link">
+      <a href="R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -729,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/Fast_R-CNN.html" class="md-nav__link">
+      <a href="Fast_R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -749,7 +611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/Faster_R-CNN.html" class="md-nav__link">
+      <a href="Faster_R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -769,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/YOLO_v1.html" class="md-nav__link">
+      <a href="YOLO_v1.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -789,7 +651,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/YOLOv2.html" class="md-nav__link">
+      <a href="YOLOv2.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -851,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/U-Net.html" class="md-nav__link">
+      <a href="U-Net.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -871,7 +733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/PSPNet.html" class="md-nav__link">
+      <a href="PSPNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -891,7 +753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/DeepLabv3%2B.html" class="md-nav__link">
+      <a href="DeepLabv3%2B.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -917,17 +779,19 @@
                 
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" checked>
         
           <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
             
@@ -940,7 +804,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_5">
             <span class="md-nav__icon md-icon"></span>
             Other
@@ -953,7 +817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/GAN.html" class="md-nav__link">
+      <a href="GAN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -971,9 +835,18 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="deep_learning/Transformer.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="Transformer.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -982,6 +855,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -993,7 +867,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/DCN.html" class="md-nav__link">
+      <a href="DCN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1021,7 +895,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep_learning/CHAOS.html" class="md-nav__link">
+      <a href="CHAOS.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1059,6 +933,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1070,6 +946,34 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+                  
+
+  
+  
+
+
+<h1 id="transformer-attention-is-all-you-need">Transformer: Attention is all you need<a class="headerlink" href="#transformer-attention-is-all-you-need" title="Permanent link">&para;</a></h1>
+<p>对标：recurrent neural networks, long short-term memory, gated recurrent neural networks</p>
+<p>attention mechanism</p>
+<p>encoder-decoder architectures</p>
+<p>Multi-Head Attention</p>
+<p>stacked self-attention and point-wise</p>
+<p><img alt="Untitled" src="Untitled%2010.png" /></p>
+<p>Q: Queries, K: Key, V: Value</p>
+<p><img alt="Untitled" src="Untitled%2011.png" /></p>
+<div class="arithmatex">\[
+Attention(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d_k}})V
+\]</div>
+<h1 id="quastion">QUASTION<a class="headerlink" href="#quastion" title="Permanent link">&para;</a></h1>
+<p>sequence transduction是什么</p>
+<p>有哪些query</p>
+<p>哪里输出的是翻译结果，输出的概率是什么</p>
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1078,21 +982,111 @@
         
       </main>
       
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="GAN.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: GAN" rel="prev">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                GAN
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="DCN.html" class="md-footer__link md-footer__link--next" aria-label="下一页: Deformable Convolutional Networks" rel="next">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                Deformable Convolutional Networks
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; QIN
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/QIN921/" target="_blank" rel="noopener" title="github主页" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:<zhouchuqin2002@foxmail.com>" target="_blank" rel="noopener" title="我的邮箱" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.7l167.6-182.9c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://bing.horrordor.tk/" target="_blank" rel="noopener" title="Bing每日壁纸" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6 31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0l112.3-112.3zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5 50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5l112.2-112.3c31.5-31.5 82.5-31.5 114 0 27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.footer", "header.autohide"], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer", "header.autohide"], "search": "../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      <script src="../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
         <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
       
         <script src="https://cdn.staticfile.org/webfont/1.6.28/webfontloader.js"></script>
       
-        <script src="javascripts/config.js"></script>
+        <script src="../javascripts/config.js"></script>
       
         <script src="https://polyfill.alicdn.com/polyfill.min.js"></script>
       
