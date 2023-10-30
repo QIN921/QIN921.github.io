@@ -5,7 +5,7 @@ repo_name: QIN921
 repo_url: https://github.com/QIN921/QIN921.github.io/
 
 # Copyright
-copyright: Copyright &copy; horrordor
+copyright: Copyright &copy; QIN
 
 #website/xxx.html style
 use_directory_urls: false
@@ -113,7 +113,7 @@ extra:
       link: https://github.com/QIN921/
       name: github主页
     - icon: fontawesome/solid/paper-plane
-      link: mailto:<cccccc2002@outlook.com>
+      link: mailto:<zhouchuqin2002@foxmail.com>
       name: 我的邮箱
     - icon: fontawesome/solid/link
       link: https://bing.horrordor.tk/
