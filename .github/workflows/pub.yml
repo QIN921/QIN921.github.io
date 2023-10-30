@@ -1,0 +1,22 @@
+name: Doc Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v3
+        with:
+          python-version: 3.7
+      - run: pip install --user -r requirements.txt
+      - run: mkdocs gh-deploy --force
+      - run: rm -rf ./site
+      - run: ls -R
