@@ -3,12 +3,17 @@ window.MathJax = {
         inlineMath: [["\\(", "\\)"], ['$', '$']],
         displayMath: [["\\[", "\\]"]],
         processEscapes: true,
-        processEnvironments: true
+        processEnvironments: true,
+        autoload: { color: [], colorV2: ["color"] },
+        packages: { "[+]": ["noerrors"] }
     },
     options: {
-        ignoreHtmlClass: ".*|",
-        processHtmlClass: "arithmatex"
-    }
+        // ignoreHtmlClass: ".*|",
+        // processHtmlClass: "arithmatex"
+        ignoreHtmlClass: "tex2jax_ignore",
+        processHtmlClass: "tex2jax_process"
+    },
+    loader: { load: ["input/asciimath", "[tex]/noerrors", "[tex]/mhchem"] }
 };
 
 document$.subscribe(() => {
