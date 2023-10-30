@@ -8,10 +8,10 @@ window.MathJax = {
         packages: { "[+]": ["noerrors"] }
     },
     options: {
-        // ignoreHtmlClass: ".*|",
-        // processHtmlClass: "arithmatex"
-        ignoreHtmlClass: "tex2jax_ignore",
-        processHtmlClass: "tex2jax_process"
+        ignoreHtmlClass: ".*|",
+        processHtmlClass: "arithmatex"
+        // ignoreHtmlClass: "tex2jax_ignore",
+        // processHtmlClass: "tex2jax_process"
     },
     loader: { load: ["input/asciimath", "[tex]/noerrors", "[tex]/mhchem"] }
 };
