@@ -1,0 +1,146 @@
+{#-
+This file was automatically generated - do not edit
+-#}
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+    .md-header {
+        position: initial
+    }
+
+    .md-main__inner {
+        margin: 0
+    }
+
+    .md-content {
+        display: none;
+    }
+
+    body {
+        overflow: hidden;
+        background: url('https://souga.eu.org/api/random');
+        background-size:
+            cover;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .fuck-box {
+        width: 80vw;
+        height: 55vh;
+    }
+
+
+    @media screen and (min-width:60em) {
+        .md-sidebar--secondary {
+            display: none
+        }
+    }
+
+
+    @media screen and (min-width:76.25em) {
+        .md-sidebar--primary {
+            display: none
+        }
+    }
+
+    .typed-cursor {
+        opacity: 1;
+        animation: typedjsBlink 0.7s infinite;
+        -webkit-animation: typedjsBlink 0.7s infinite;
+        animation: typedjsBlink 0.7s infinite;
+    }
+
+    @keyframes typedjsBlink {
+        50% {
+            opacity: 0.0;
+        }
+    }
+
+    @-webkit-keyframes typedjsBlink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0.0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .typed-fade-out {
+        opacity: 0;
+        transition: opacity .25s;
+        -webkit-animation: 0;
+        animation: 0;
+    }
+
+
+    /* noto-sans-sc-regular */
+    @font-face {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: regular;
+        src: url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.eot');
+        /* IE9 Compat Modes */
+        src: local('Noto Sans SC'), local('NotoSans SC-Normal'),
+            url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.eot?#iefix') format('embedded-opentype'),
+            /* IE6-IE8 */
+            url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.woff2') format('woff2'),
+            /* Super Modern Browsers */
+            url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.woff') format('woff'),
+            /* Modern Browsers */
+            url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.ttf') format('truetype'),
+            /* Safari, Android, iOS */
+            url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.svg#NotoSans SC') format('svg');
+        /* Legacy iOS */
+    }
+</style>
+
+<link rel="preconnect" href="https://fonts.font.im">
+<link rel="preconnect" href="https://fonts.gstatic.font.im" crossorigin>
+<script src="https://lib.baomitu.com/typed.js/latest/typed.min.js"></script>
+
+<script>
+    window.onload = function () {
+        fetch('https://v1.hitokoto.cn?c=d&c=j&c=k')
+            .then(response => response.json())
+            .then(fuck => {
+                var typed = new Typed('#typed', {
+                    strings: ["欢迎来到我的博客", fuck.hitokoto.toString()],//输出的文字
+                    typeSpeed: 50,//打字的速度
+                    startDelay: 1000
+                });
+            })
+            .catch(console.error);
+    };
+</script>
+</script>
+<section class="mdx-container">
+    <div class="md-grid md-typeset">
+        <div class="mdx-hero">
+            <div class="mdx-hero__content" style="padding-left:10vw;padding-right:10vw;">
+                <h1 style="mix-blend-mode: lighten;color: white;font-weight:bolder;font-family:'Noto Sans SC'">
+                    <div class="fuck-box"></div>
+                    <span id="typed">
+                    </span>
+                </h1>
+                <a id="button_1" style="display: inline-block;" href="{{ page.next_page.url | url }}"
+                    title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+                    一起学习
+                </a>
+                <a id="button_2" style="display: inline-block;" href="{{ 'https://github.com/horrordor' | url }}"
+                    title="Github" class="md-button">
+                    <b style="mix-blend-mode: lighten;color: white;"> Github 仓库</b>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

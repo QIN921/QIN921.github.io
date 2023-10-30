@@ -1,13 +1,19 @@
-# project
-_site
-.sass-cache
-.vagrant
+cn/site/
+en/site/
+site/
 
-# general
+.idea
 .DS_Store
-Thumbs.db
-ehthumbs.db
 
-Gemfile.lock
-
-beautiful-jekyll-theme-*.gem
+log/
+core.*
+*.pyc
+*.ipynb
+/.vscode
+/.idea
+/manylinux*
+wheelhouse/
+wheelhouse*
+.clangd
+.cache
+/tmp

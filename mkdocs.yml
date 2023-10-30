@@ -1,0 +1,170 @@
+# site_name: horrordor's blog
+# site_url: https://blog.horrordor.tk/
+# Repository
+repo_name: QIN921
+repo_url: https://github.com/QIN921/QIN921.github.io/
+
+# Copyright
+copyright: Copyright &copy; horrordor
+
+#website/xxx.html style
+use_directory_urls: false
+
+# Configuration
+theme:
+  name: material
+  custom_dir: "overrides/"
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+  palette:
+   # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  features:
+      - navigation.footer
+      - header.autohide
+  font:
+    text: Roboto
+    code: Ubuntu Mono, Roboto Mono
+
+# Plugins
+plugins:
+  - search
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.tables
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - https://libs.baidu.com/jquery/2.1.4/jquery.min.js
+  - https://cdn.staticfile.org/webfont/1.6.28/webfontloader.js
+  - javascripts/config.js
+  - https://polyfill.alicdn.com/polyfill.min.js
+  - https://jsd.cdn.zzko.cn/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/QIN921/
+      name: github主页
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<cccccc2002@outlook.com>
+      name: 我的邮箱
+    - icon: fontawesome/solid/link
+      link: https://bing.horrordor.tk/
+      name: Bing每日壁纸
+
+
+
+nav:
+  - 首页: index.md
+  - 一起学 GitHub:
+      - 如何提交 PR: github/01_how_to_pr.md
+      - 如何通过 PR 学习: github/02_learn_from_pr.md
+      - github SSH免密码登录设置: github/03_SSH_for_github.md
+      - 美化代码工具分享: github/04_beauty_code.md
+      - 快速上手 Markdown: github/05_get_started_with_Markdown.md
+      - MkDocs 工具使用: github/06_Mkdocs.md
+      - GitHub Pages 的生成和使用: github/07_GitHub_Pages.md
+      - GitHub Actions 介绍 & 使用: github/08_GitHub_Actions.md
+      - 解决 Git 冲突 Merge Conflicts: github/09_merge_conflicts.md
+      - 删除指定 commit 小妙招 git rebase: github/10_git_rebase.md
+
+  - 研究 C++ 新语法:
+      - 右值引用: learn_cpp/01_rvalue_ref.md
+      - 完美转发: learn_cpp/02_forward.md
+      - 可变参模板: learn_cpp/03_varadic_template.md
+      - 单例模式: learn_cpp/04_singleton.md
+      - 类型别名：从 typedef 到 using: learn_cpp/05_using_against_typedef.md
+      - 仿函数: learn_cpp/06_functor.md
+      - 编译链接和宏本质: learn_cpp/07_complie_link_macro.md
+      - 模板 template: learn_cpp/08_template.md
+      - 模板特例: learn_cpp/09_template_special.md
+      - 搞懂 SFINAE: learn_cpp/11_template_sfinae.md
+      - enable_if 新标准: learn_cpp/012_enable_if.md
+      - enable_if 的重定义错误: learn_cpp/13_enable_if_redefine_mistake.md
+      - 模板元编程: learn_cpp/014_materials.md
+
+  - 深度学习:
+      - Deep Learning: deep_learning/00_DeepLearning.md
+      - AlexNet： ImageNet Classification with Deep Convolutional Neural Networks: deep_learning/01_AlexNet.md
+      - VGG： Very Deep Convolutional Networks for Large-Scale Image Recognition: deep_learning/02_VGG.md
+      - ResNet：Deep Residual Learning for Image Recognition: deep_learning/03_ResNet.md
+      - MobileNet：Efficient Convolutional Neural Networks for Mobile Vision Applications: deep_learning/04_MoblieNets.md
+      - GoogLeNet: deep_learning/05_GoogLeNet.md
+      - R-CNN：Rich feature hierarchies for accurate object detection and semantic segmentation Tech report: deep_learning/06_R-CNN.md
+      - Fast R-CNN: deep_learning/07_Fast_R-CNN.md
+      - Faster R-CNN： Towards Real-Time Object Detection with Region Proposal Networks: deep_learning/08_Faster_R-CNN.md
+      - YOLO v1：You Only Look Once： Unified, Real-Time Object Detection: deep_learning/09_YOLO_v1.md
+      - YOLOv2：YOLO9000：Better, Faster, Stronger: deep_learning/10_YOLO_v2.md
+      - GAN：Generative Adversarial Nets: deep_learning/11_GAN.md
+      - WANN：Weight Agnostic Neural Networks: deep_learning/12_WANN.md
+      - ViT：An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale: deep_learning/13_Vit.md
+      - SwinT：Swin Transformer： Hierarchical Vision Transformer using Shifted Windows: deep_learning/14_SwinT.md
+      - 杂: deep_learning/other.md
+
