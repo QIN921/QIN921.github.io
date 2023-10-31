@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://qin921.github.io/deep_learning/Dive_into_deep_learning.html">
+        <link rel="canonical" href="https://qin921.github.io/deep_learning/09_YOLO_v1.html">
       
       
-        <link rel="prev" href="../self.html">
+        <link rel="prev" href="08_Faster_R-CNN.html">
       
       
-        <link rel="next" href="AlexNet.html">
+        <link rel="next" href="10_YOLOv2.html">
       
       
       <link rel="icon" href="../assets/logo.svg">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Dive into deep learning - QIN's blog</title>
+        <title>YOLO v1 - QIN's blog</title>
       
     
     
@@ -118,7 +118,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dive-into-deep-learning" class="md-skip">
+        <a href="#yolo-v1-you-only-look-once-unified-real-time-object-detection" class="md-skip">
           跳转至
         </a>
       
@@ -153,7 +153,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Dive into deep learning
+              YOLO v1
             
           </span>
         </div>
@@ -355,7 +355,7 @@
             
   
   <span class="md-ellipsis">
-    深度学习
+    Studing
   </span>
   
 
@@ -365,7 +365,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            深度学习
+            Studing
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -373,18 +373,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="Dive_into_deep_learning.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="00_Dive_into_deep_learning.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -393,7 +384,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -439,7 +429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="AlexNet.html" class="md-nav__link">
+      <a href="01_AlexNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -459,7 +449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="VGG.html" class="md-nav__link">
+      <a href="02_VGG.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -479,7 +469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ResNet.html" class="md-nav__link">
+      <a href="03_ResNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -499,7 +489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="MobileNets.html" class="md-nav__link">
+      <a href="04_MobileNets.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -519,7 +509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="GoogLeNet.html" class="md-nav__link">
+      <a href="05_GoogLeNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -545,17 +535,19 @@
                 
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
         
           <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
             
@@ -568,7 +560,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             Object Detection
@@ -581,7 +573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="R-CNN.html" class="md-nav__link">
+      <a href="06_R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -601,7 +593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Fast_R-CNN.html" class="md-nav__link">
+      <a href="07_Fast_R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -621,7 +613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Faster_R-CNN.html" class="md-nav__link">
+      <a href="08_Faster_R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -639,9 +631,29 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="YOLO_v1.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    YOLO v1
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="09_YOLO_v1.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -650,6 +662,33 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    分类所用技术
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -661,7 +700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="YOLOv2.html" class="md-nav__link">
+      <a href="10_YOLOv2.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -723,7 +762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="U-Net.html" class="md-nav__link">
+      <a href="11_U-Net.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -743,7 +782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="PSPNet.html" class="md-nav__link">
+      <a href="12_PSPNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -763,7 +802,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DeepLabv3%2B.html" class="md-nav__link">
+      <a href="13_DeepLabv3%2B.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -825,7 +864,7 @@
   
   
     <li class="md-nav__item">
-      <a href="GAN.html" class="md-nav__link">
+      <a href="14_GAN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -845,7 +884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Transformer.html" class="md-nav__link">
+      <a href="15_Transformer.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -865,11 +904,31 @@
   
   
     <li class="md-nav__item">
-      <a href="DCN.html" class="md-nav__link">
+      <a href="16_DCN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Deformable Convolutional Networks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="18_RealBasicVSR.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BasicVSR
   </span>
   
 
@@ -893,7 +952,7 @@
   
   
     <li class="md-nav__item">
-      <a href="CHAOS.html" class="md-nav__link">
+      <a href="17_CHAOS.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -934,6 +993,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    分类所用技术
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -950,14 +1024,15 @@
   
 
 
-<h1 id="dive-into-deep-learning">Dive into deep learning<a class="headerlink" href="#dive-into-deep-learning" title="Permanent link">&para;</a></h1>
-<h1 id="_1">线性回归解析解<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p><strong>矩阵求导</strong></p>
-<div class="arithmatex">\[
-\frac{\partial (\bold x^T\bold a)}{\partial\bold x}=\frac{\partial(\bold a^T\bold x)}{\partial\bold x}=\bold a\\ \frac{\partial(\bold x^T\bold x)}{\partial\bold x}=2\bold x
-\]</div>
-<p><img alt="Untitled" src="Untitled.png" /></p>
-<p>SGD: Stochastic Gradient Desent</p>
+<h1 id="yolo-v1-you-only-look-once-unified-real-time-object-detection">YOLO v1: You Only Look Once: Unified, Real-Time Object Detection<a class="headerlink" href="#yolo-v1-you-only-look-once-unified-real-time-object-detection" title="Permanent link">&para;</a></h1>
+<p><img alt="091.png" src="091.png" /></p>
+<p>将边框作为一个回归问题，直接卷积。选择直接用卷积神经网络来输出预测边框与预测类别准确度</p>
+<p>最终输出是一个 <span class="arithmatex">\(7\times7\times30\)</span>的三维矩阵</p>
+<p><img alt="092.png" src="092.png" /></p>
+<p>将整个输入图片分为 <span class="arithmatex">\(S\times S(S=7)\)</span>个网格grid cell，每个网格对应一个30维的向量，前10维为这个grid cell上生成的两个bounding box的五个参数，后20维是该grid cell对应20个类别的条件概率</p>
+<p>根据输出的 <span class="arithmatex">\(49\times2=98\)</span>个bounding box与类别概率，进行非极大值抑制 non-maximum suppression，删除冗余边界框</p>
+<h2 id="_1">分类所用技术<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>Single Shot Multibox Detection (SSD)：锚点，锚框</p>
 
 
 
@@ -979,7 +1054,7 @@
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="../self.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: 自我介绍" rel="prev">
+          <a href="08_Faster_R-CNN.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: Faster R-CNN" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -989,20 +1064,20 @@
                 上一页
               </span>
               <div class="md-ellipsis">
-                自我介绍
+                Faster R-CNN
               </div>
             </div>
           </a>
         
         
           
-          <a href="AlexNet.html" class="md-footer__link md-footer__link--next" aria-label="下一页: AlexNet" rel="next">
+          <a href="10_YOLOv2.html" class="md-footer__link md-footer__link--next" aria-label="下一页: YOLO v2" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                AlexNet
+                YOLO v2
               </div>
             </div>
             <div class="md-footer__button md-icon">

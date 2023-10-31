@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://qin921.github.io/deep_learning/AlexNet.html">
+        <link rel="canonical" href="https://qin921.github.io/deep_learning/07_Fast_R-CNN.html">
       
       
-        <link rel="prev" href="Dive_into_deep_learning.html">
+        <link rel="prev" href="06_R-CNN.html">
       
       
-        <link rel="next" href="VGG.html">
+        <link rel="next" href="08_Faster_R-CNN.html">
       
       
       <link rel="icon" href="../assets/logo.svg">
@@ -22,7 +22,7 @@
     
     
       
-        <title>AlexNet - QIN's blog</title>
+        <title>Fast R-CNN - QIN's blog</title>
       
     
     
@@ -118,7 +118,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#alexnet-imagenet-classification-with-deep-convolutional-neural-networks" class="md-skip">
+        <a href="#fast-r-cnn" class="md-skip">
           跳转至
         </a>
       
@@ -153,7 +153,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AlexNet
+              Fast R-CNN
             
           </span>
         </div>
@@ -355,7 +355,7 @@
             
   
   <span class="md-ellipsis">
-    深度学习
+    Studing
   </span>
   
 
@@ -365,7 +365,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            深度学习
+            Studing
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -375,7 +375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Dive_into_deep_learning.html" class="md-nav__link">
+      <a href="00_Dive_into_deep_learning.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -393,19 +393,17 @@
                 
   
   
-    
-  
   
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
         
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
             
@@ -418,7 +416,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             Image Classification
@@ -429,18 +427,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="AlexNet.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="01_AlexNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -449,7 +438,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -461,7 +449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="VGG.html" class="md-nav__link">
+      <a href="02_VGG.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -481,7 +469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ResNet.html" class="md-nav__link">
+      <a href="03_ResNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -501,7 +489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="MobileNets.html" class="md-nav__link">
+      <a href="04_MobileNets.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -521,7 +509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="GoogLeNet.html" class="md-nav__link">
+      <a href="05_GoogLeNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -547,17 +535,19 @@
                 
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
         
           <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
             
@@ -570,7 +560,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             Object Detection
@@ -583,7 +573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="R-CNN.html" class="md-nav__link">
+      <a href="06_R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -601,9 +591,18 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="Fast_R-CNN.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="07_Fast_R-CNN.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -612,6 +611,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -623,7 +623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Faster_R-CNN.html" class="md-nav__link">
+      <a href="08_Faster_R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -643,7 +643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="YOLO_v1.html" class="md-nav__link">
+      <a href="09_YOLO_v1.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -663,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="YOLOv2.html" class="md-nav__link">
+      <a href="10_YOLOv2.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -725,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="U-Net.html" class="md-nav__link">
+      <a href="11_U-Net.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -745,7 +745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="PSPNet.html" class="md-nav__link">
+      <a href="12_PSPNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -765,7 +765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DeepLabv3%2B.html" class="md-nav__link">
+      <a href="13_DeepLabv3%2B.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -827,7 +827,7 @@
   
   
     <li class="md-nav__item">
-      <a href="GAN.html" class="md-nav__link">
+      <a href="14_GAN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -847,7 +847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Transformer.html" class="md-nav__link">
+      <a href="15_Transformer.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -867,11 +867,31 @@
   
   
     <li class="md-nav__item">
-      <a href="DCN.html" class="md-nav__link">
+      <a href="16_DCN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Deformable Convolutional Networks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="18_RealBasicVSR.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BasicVSR
   </span>
   
 
@@ -895,7 +915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="CHAOS.html" class="md-nav__link">
+      <a href="17_CHAOS.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -952,40 +972,12 @@
   
 
 
-<h1 id="alexnet-imagenet-classification-with-deep-convolutional-neural-networks">AlexNet: ImageNet Classification with Deep Convolutional Neural Networks<a class="headerlink" href="#alexnet-imagenet-classification-with-deep-convolutional-neural-networks" title="Permanent link">&para;</a></h1>
-<h1 id="relu-nonlinearity"><strong>ReLU Nonlinearity</strong><a class="headerlink" href="#relu-nonlinearity" title="Permanent link">&para;</a></h1>
-<div class="arithmatex">\[
-f(x)=max(0,x)
-\]</div>
-<h1 id="_1"><strong>传统的饱和非线性</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<div class="arithmatex">\[
-f(x) = \frac{1}{1+e^{-x}}
-\]</div>
-<div class="arithmatex">\[
-tanh(x) = \frac{e^x+e^{-x}}{e^x+e^{-x}}
-\]</div>
-<p>优点：</p>
-<ul>
-<li>解决梯度消失</li>
-<li>加快收敛</li>
-</ul>
-<p>缺点：</p>
-<ul>
-<li>可能造成神经元死亡</li>
-</ul>
-<h1 id="local-response-normalization"><strong>Local Response Normalization</strong><a class="headerlink" href="#local-response-normalization" title="Permanent link">&para;</a></h1>
-<div class="arithmatex">\[
-b_{x, y}^{i}=a_{x, y}^{i} /\left(k+\alpha \sum_{j=\max (0, i-n / 2)}^{\min (N-1, i+n / 2)}\left(a_{x, y}^{j}\right)^{2}\right)^{\beta}
-\]</div>
-<p>局部响应归一化，增大对比度，使大的相对小的更大，</p>
-<p>lateral inhibition 横向抑制，抑制小的的影响</p>
-<h1 id="reducing-overfitting"><strong>Reducing Overfitting</strong><a class="headerlink" href="#reducing-overfitting" title="Permanent link">&para;</a></h1>
-<p>由于参数过多，所以很容易对训练集过拟合</p>
-<h2 id="data-argumentation"><strong>Data Argumentation</strong><a class="headerlink" href="#data-argumentation" title="Permanent link">&para;</a></h2>
-<p>人为增多数据集，下采样后256x256的图片选出224x224作为输入，因此可以图像平移与水平翻转，从而得到32x32x2=2048张图片</p>
-<p>改变图像强度，进行主成分分析PCA，然后将主成分加倍</p>
-<h2 id="dropout"><strong>Dropout</strong><a class="headerlink" href="#dropout" title="Permanent link">&para;</a></h2>
-<p>是神经网络中比较常用的抑制过拟合的方法。在神经网络中Dropout通过修改神经网络本身结构来实现，对于某一层的神经元，通过定义的概率将神经元置为0，这个神经元就不参与前向和后向传播，就如同在网络中被删除了一样，同时保持输入层与输出层神经元的个数不变，然后按照神经网络的学习方法进行参数更新。在下一次迭代中，又重新随机删除一些神经元（置为0），直至训练结束</p>
+<h1 id="fast-r-cnn">Fast R-CNN<a class="headerlink" href="#fast-r-cnn" title="Permanent link">&para;</a></h1>
+<p><img alt="071.png" src="071.png" /></p>
+<p>同样用选择性搜索算法来提取RoI，但是参考SPPnet将计算卷积的操作合并为了一个</p>
+<p>RoI pooling：对特征图中感兴趣的区域做最大化池化</p>
+<p>分类任务不采用SVM分类器，改用全连接层FC</p>
+<p>这篇论文主要探讨的是如何加快训练过程，并没有进行特别大的改进，当然比RCNN还是快了许多，RCNN的卷积操作包含太多的重复运算</p>
 
 
 
@@ -1007,7 +999,7 @@ b_{x, y}^{i}=a_{x, y}^{i} /\left(k+\alpha \sum_{j=\max (0, i-n / 2)}^{\min (N-1,
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="Dive_into_deep_learning.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: Dive into deep learning" rel="prev">
+          <a href="06_R-CNN.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: R-CNN" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1017,20 +1009,20 @@ b_{x, y}^{i}=a_{x, y}^{i} /\left(k+\alpha \sum_{j=\max (0, i-n / 2)}^{\min (N-1,
                 上一页
               </span>
               <div class="md-ellipsis">
-                Dive into deep learning
+                R-CNN
               </div>
             </div>
           </a>
         
         
           
-          <a href="VGG.html" class="md-footer__link md-footer__link--next" aria-label="下一页: VGG" rel="next">
+          <a href="08_Faster_R-CNN.html" class="md-footer__link md-footer__link--next" aria-label="下一页: Faster R-CNN" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                VGG
+                Faster R-CNN
               </div>
             </div>
             <div class="md-footer__button md-icon">
