@@ -10,11 +10,11 @@ Multi-Head Attention
 
 stacked self-attention and point-wise
 
-![Untitled](Untitled%2010.png)
+![Untitled](151.png)
 
 Q: Queries, K: Key, V: Value
 
-![Untitled](Untitled%2011.png)
+![Untitled](152.png)
 
 $$
 Attention(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d_k}})V

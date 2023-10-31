@@ -1,6 +1,6 @@
 # R-CNN:Rich feature hierarchies for accurate object detection and semantic segmentation Tech report
 
-![image-20230423185318459.png](image-20230423185318459.png)
+![061.png](061.png)
 
 首先利用选择性搜索算法获取初步预测的边界框。**选择性搜索**算法根据像素级别的特征合并各个区域，合并的规则包括颜色相似度、纹理相似度、尺寸相似度、形状相似性等。
 

@@ -6,7 +6,7 @@
 
 还有一系列改进来获取训练集的方法。
 
-![Untitled](Untitled%205.png)
+![Untitled](101.png)
 
 <aside>
 💡 Chatgpt的回答：YOLOv2与YOLOv1的主要不同点有哪些

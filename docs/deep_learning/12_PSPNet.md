@@ -18,4 +18,4 @@ ResNet model with the dilated network strategy
 
 Auxiliary loss
 
-![Untitled](Untitled%207.png)
+![Untitled](121.png)

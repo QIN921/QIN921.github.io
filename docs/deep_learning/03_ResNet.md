@@ -1,6 +1,6 @@
 # ResNet：Deep Residual Learning for Image Recognition
 
-![image-20230427195414455.png](image-20230427195414455.png)
+![031.png](031.png)
 
 理论上越深的层，如果看作在较浅层的神经网络的扩充，那么理论上可以做到完全的复制，但实际上并不能做到
 

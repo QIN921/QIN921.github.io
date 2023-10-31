@@ -1,6 +1,6 @@
 # Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
 
-![image-20230425183733660.png](image-20230425183733660.png)
+![081.png](081.png)
 
 Region Proposed Network将VGG16提取出的特征作为输入，输出边界框位置预测和包含物体的概率
 

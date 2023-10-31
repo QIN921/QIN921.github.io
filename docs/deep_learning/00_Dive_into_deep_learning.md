@@ -8,6 +8,6 @@ $$
 \frac{\partial (\bold x^T\bold a)}{\partial\bold x}=\frac{\partial(\bold a^T\bold x)}{\partial\bold x}=\bold a\\ \frac{\partial(\bold x^T\bold x)}{\partial\bold x}=2\bold x
 $$
 
-![Untitled](Untitled.png)
+![Untitled](001.png)
 
 SGD: Stochastic Gradient Desent
