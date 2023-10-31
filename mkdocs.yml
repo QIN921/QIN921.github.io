@@ -122,7 +122,7 @@ extra:
 nav:
   - 首页: index.md
   - 自我介绍: self.md
-  - Studing:
+  - Studying:
     - Dive into deep learning: deep_learning/00_Dive_into_deep_learning.md
     - Image Classification: 
       - AlexNet: deep_learning/01_AlexNet.md
@@ -149,4 +149,7 @@ nav:
       # - WANN：Weight Agnostic Neural Networks: deep_learning/12_WANN.md
       # - ViT：An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale: deep_learning/13_Vit.md
       # - SwinT：Swin Transformer： Hierarchical Vision Transformer using Shifted Windows: deep_learning/14_SwinT.md
+  - Video Compression:
+    - DVC: video_compression/01_DVC.md
+    - FVC: video_compression/02_FVC.md
 
