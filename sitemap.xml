@@ -105,4 +105,14 @@
          <lastmod>2023-10-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://qin921.github.io/video_compression/01_DVC.html</loc>
+         <lastmod>2023-10-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qin921.github.io/video_compression/02_FVC.html</loc>
+         <lastmod>2023-10-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
