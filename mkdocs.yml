@@ -116,8 +116,8 @@ extra:
       link: mailto:<zhouchuqin2002@foxmail.com>
       name: 我的邮箱
     - icon: fontawesome/solid/link
-      link: https://bing.horrordor.tk/
-      name: Bing每日壁纸
+      link: https://ieeexplore.ieee.org/author/37090056269
+      name: Homepage
 
 nav:
   - 首页: index.md
@@ -152,4 +152,5 @@ nav:
   - Video Compression:
     - DVC: video_compression/01_DVC.md
     - FVC: video_compression/02_FVC.md
+    - NIFC: video_compression/03_NIFC.md
 
