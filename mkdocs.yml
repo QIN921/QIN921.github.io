@@ -153,4 +153,4 @@ nav:
     - DVC: video_compression/01_DVC.md
     - FVC: video_compression/02_FVC.md
     - NIFC: video_compression/03_NIFC.md
-
+    - C2F: video_compression/04_C2F.md
