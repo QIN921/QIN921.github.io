@@ -8,13 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://qin921.github.io/deep_learning/07_Fast_R-CNN.html">
+        <link rel="canonical" href="https://qin921.github.io/video_compression/04_C2F.html">
       
       
-        <link rel="prev" href="06_R-CNN.html">
+        <link rel="prev" href="03_NIFC.html">
       
-      
-        <link rel="next" href="08_Faster_R-CNN.html">
       
       
       <link rel="icon" href="../assets/logo.svg">
@@ -22,7 +20,7 @@
     
     
       
-        <title>Fast R-CNN - QIN's blog</title>
+        <title>C2F - QIN's blog</title>
       
     
     
@@ -118,7 +116,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#fast-r-cnn" class="md-skip">
+        <a href="#coarse-to-fine-deep-video-coding-with-hyperprior-guided-mode-prediction" class="md-skip">
           跳转至
         </a>
       
@@ -153,7 +151,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Fast R-CNN
+              C2F
             
           </span>
         </div>
@@ -337,19 +335,17 @@
       
   
   
-    
-  
   
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
@@ -362,7 +358,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Studying
@@ -375,7 +371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="00_Dive_into_deep_learning.html" class="md-nav__link">
+      <a href="../deep_learning/00_Dive_into_deep_learning.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -429,7 +425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="01_AlexNet.html" class="md-nav__link">
+      <a href="../deep_learning/01_AlexNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -449,7 +445,7 @@
   
   
     <li class="md-nav__item">
-      <a href="02_VGG.html" class="md-nav__link">
+      <a href="../deep_learning/02_VGG.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -469,7 +465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="03_ResNet.html" class="md-nav__link">
+      <a href="../deep_learning/03_ResNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -489,7 +485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="04_MobileNets.html" class="md-nav__link">
+      <a href="../deep_learning/04_MobileNets.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -509,7 +505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="05_GoogLeNet.html" class="md-nav__link">
+      <a href="../deep_learning/05_GoogLeNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -535,19 +531,17 @@
                 
   
   
-    
-  
   
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
         
           <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
             
@@ -560,7 +554,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             Object Detection
@@ -573,7 +567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="06_R-CNN.html" class="md-nav__link">
+      <a href="../deep_learning/06_R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -591,18 +585,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="07_Fast_R-CNN.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../deep_learning/07_Fast_R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -611,7 +596,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -623,7 +607,7 @@
   
   
     <li class="md-nav__item">
-      <a href="08_Faster_R-CNN.html" class="md-nav__link">
+      <a href="../deep_learning/08_Faster_R-CNN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -643,7 +627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="09_YOLO_v1.html" class="md-nav__link">
+      <a href="../deep_learning/09_YOLO_v1.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -663,7 +647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="10_YOLOv2.html" class="md-nav__link">
+      <a href="../deep_learning/10_YOLOv2.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -725,7 +709,7 @@
   
   
     <li class="md-nav__item">
-      <a href="11_U-Net.html" class="md-nav__link">
+      <a href="../deep_learning/11_U-Net.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -745,7 +729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="12_PSPNet.html" class="md-nav__link">
+      <a href="../deep_learning/12_PSPNet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -765,7 +749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="13_DeepLabv3%2B.html" class="md-nav__link">
+      <a href="../deep_learning/13_DeepLabv3%2B.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -827,7 +811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="14_GAN.html" class="md-nav__link">
+      <a href="../deep_learning/14_GAN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -847,7 +831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="15_Transformer.html" class="md-nav__link">
+      <a href="../deep_learning/15_Transformer.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -867,7 +851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="16_DCN.html" class="md-nav__link">
+      <a href="../deep_learning/16_DCN.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -887,7 +871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="18_RealBasicVSR.html" class="md-nav__link">
+      <a href="../deep_learning/18_RealBasicVSR.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -915,7 +899,7 @@
   
   
     <li class="md-nav__item">
-      <a href="17_CHAOS.html" class="md-nav__link">
+      <a href="../deep_learning/17_CHAOS.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -940,17 +924,19 @@
       
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
@@ -963,7 +949,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Video Compression
@@ -976,7 +962,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../video_compression/01_DVC.html" class="md-nav__link">
+      <a href="01_DVC.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -996,7 +982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../video_compression/02_FVC.html" class="md-nav__link">
+      <a href="02_FVC.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1016,7 +1002,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../video_compression/03_NIFC.html" class="md-nav__link">
+      <a href="03_NIFC.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1034,9 +1020,29 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../video_compression/04_C2F.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    C2F
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="04_C2F.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1045,6 +1051,67 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key-points" class="md-nav__link">
+    Key Points
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#framework" class="md-nav__link">
+    Framework
+  </a>
+  
+    <nav class="md-nav" aria-label="Framework">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bit-estimation-network" class="md-nav__link">
+    Bit estimation network
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#simple-bit-estimation-network" class="md-nav__link">
+    Simple bit-estimation network
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-work" class="md-nav__link">
+    Related work 前置工作
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1077,6 +1144,55 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key-points" class="md-nav__link">
+    Key Points
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#framework" class="md-nav__link">
+    Framework
+  </a>
+  
+    <nav class="md-nav" aria-label="Framework">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bit-estimation-network" class="md-nav__link">
+    Bit estimation network
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#simple-bit-estimation-network" class="md-nav__link">
+    Simple bit-estimation network
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-work" class="md-nav__link">
+    Related work 前置工作
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1093,12 +1209,40 @@
   
 
 
-<h1 id="fast-r-cnn">Fast R-CNN<a class="headerlink" href="#fast-r-cnn" title="Permanent link">&para;</a></h1>
-<p><img alt="071.png" src="071.png" /></p>
-<p>同样用选择性搜索算法来提取RoI，但是参考SPPnet将计算卷积的操作合并为了一个</p>
-<p>RoI pooling：对特征图中感兴趣的区域做最大化池化</p>
-<p>分类任务不采用SVM分类器，改用全连接层FC</p>
-<p>这篇论文主要探讨的是如何加快训练过程，并没有进行特别大的改进，当然比RCNN还是快了许多，RCNN的卷积操作包含太多的重复运算</p>
+<h1 id="coarse-to-fine-deep-video-coding-with-hyperprior-guided-mode-prediction">Coarse-to-fine Deep Video Coding with Hyperprior-guided Mode Prediction<a class="headerlink" href="#coarse-to-fine-deep-video-coding-with-hyperprior-guided-mode-prediction" title="Permanent link">&para;</a></h1>
+<h2 id="key-points">Key Points<a class="headerlink" href="#key-points" title="Permanent link">&para;</a></h2>
+<p>mode prediction technique</p>
+<p>mode prodiction networks by  using hyperprior information (i.e., the mean and variance values) from the hyperprior networks contains <strong>discriminant statistical information</strong> of different patches</p>
+<p>skip residual information from each block</p>
+<p>coase-to-fine strategy: </p>
+<p>optical flow estimation: pyramid structure</p>
+<p>video super-resolution: coarse-to-fine alignment strategy</p>
+<p>gumbel softmax layer: 离散概率分布</p>
+<h2 id="framework">Framework<a class="headerlink" href="#framework" title="Permanent link">&para;</a></h2>
+<p><img alt="Untitled" src="04_C2F/01.png" /></p>
+<p><img alt="Untitled" src="04_C2F/02.png" /></p>
+<p><img alt="Untitled" src="04_C2F/03.png" /></p>
+<p><span class="arithmatex">\(F_{t-1}^{ref}\)</span>和<span class="arithmatex">\(F_t\)</span>下采样后进行粗粒度的Motion Estimation, Motion Compression再上采样得到粗粒度的offset map后，对<span class="arithmatex">\(F_{t-1}^{ref}\)</span>进行Motion Compensation，得到Coarse-level Motion Compensation Branch结果<span class="arithmatex">\(\tilde F_t\)</span>。将<span class="arithmatex">\(F_t\)</span>和<span class="arithmatex">\(\tilde F_t\)</span>进行细粒度的Motion Estimation, Motion Compression,Motion Compensation，得到最终的<span class="arithmatex">\(\bar F_t\)</span>。以上的网络结果基本参考FVC的设计。</p>
+<p><img alt="Untitled" src="04_C2F/04.png" /></p>
+<p>通过Mode Prediction获得Latent Presentation的区域池化合并方案，和残差块忽略方案，进一步节约带宽</p>
+<p>The <strong>max operation is undifferentiable</strong>, so the whole network cannot be end-to-end optimized through back-propagation. To address this issue, during the training process, we adopt the <strong>Gumbel softmax strategy</strong> to decide the optimal mode as this Gumbel softmax module is differentiable, which thus enables end-to-end optimization for the whole network.</p>
+<p>Our proposed HAMC method can automatically <strong>select large block sizes in smooth areas with less significant motion patterns</strong> for bit-rate saving and use small block sizes for areas around moving object boundaries for achieving more accurate motion compensation results.</p>
+<h3 id="bit-estimation-network">Bit estimation network<a class="headerlink" href="#bit-estimation-network" title="Permanent link">&para;</a></h3>
+<aside>
+💡 David Minnen, Johannes Balle, and George D Toderic, Joint autoregressive and hierarchical priors for learned image compression, In Advances in Neural Information Processing Systems, pages 10771–10780, 2018.
+
+</aside>
+
+<p>Without using the time-consuming auto-regressive model to estimate the bits for compressing</p>
+<h3 id="simple-bit-estimation-network">Simple bit-estimation network<a class="headerlink" href="#simple-bit-estimation-network" title="Permanent link">&para;</a></h3>
+<aside>
+💡 Johannes Balle, Valero Laparra, and Eero P Simoncelli, Endto-end optimized image compression, International Conference on Learning Representations (ICLR), 2017
+
+</aside>
+
+<h2 id="related-work">Related work 前置工作<a class="headerlink" href="#related-work" title="Permanent link">&para;</a></h2>
+<p>FVC: A new framework towards deep video compression in feature space</p>
+<p>Improving deep video compression by resolution-adaptive flow coding</p>
 
 
 
@@ -1120,7 +1264,7 @@
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="06_R-CNN.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: R-CNN" rel="prev">
+          <a href="03_NIFC.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: NIFC" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1130,27 +1274,11 @@
                 上一页
               </span>
               <div class="md-ellipsis">
-                R-CNN
+                NIFC
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="08_Faster_R-CNN.html" class="md-footer__link md-footer__link--next" aria-label="下一页: Faster R-CNN" rel="next">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                下一页
-              </span>
-              <div class="md-ellipsis">
-                Faster R-CNN
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
