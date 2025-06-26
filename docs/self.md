@@ -5,13 +5,13 @@ Chuqin Zhou
 
 Education
 ---------
-2024-2027(expected) :   **Master of Engineering **
+2024-2027(expected): **Master of Engineering** 
 
 Shanghai Jiao Tong University (Shanghai, China)
 
     Major: Electronic Engineering 
 
-2020-2024 :   **Bachelor of Engineering **
+2020-2024: **Bachelor of Engineering**
 
 Huazhong University of Science and Technology (Wuhan, Hubei, China)
 
