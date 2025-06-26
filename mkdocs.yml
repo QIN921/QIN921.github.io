@@ -120,7 +120,7 @@ extra:
       name: Homepage
 
 nav:
-  - 首页: index.md
+  - 首页: self.md
   - 自我介绍: self.md
   # - Studying:
   #   - Dive into deep learning: deep_learning/00_Dive_into_deep_learning.md
