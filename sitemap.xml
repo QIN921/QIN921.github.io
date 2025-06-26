@@ -2,127 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://qin921.github.io/index.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/self.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/00_Dive_into_deep_learning.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/01_AlexNet.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/02_VGG.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/03_ResNet.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/04_MobileNets.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/05_GoogLeNet.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/06_R-CNN.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/07_Fast_R-CNN.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/08_Faster_R-CNN.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/09_YOLO_v1.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/10_YOLOv2.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/11_U-Net.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/12_PSPNet.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/13_DeepLabv3%2B.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/14_GAN.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/15_Transformer.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/16_DCN.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/17_CHAOS.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/deep_learning/18_RealBasicVSR.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/video_compression/01_DVC.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/video_compression/02_FVC.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/video_compression/03_NIFC.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
     <url>
          <loc>https://qin921.github.io/video_compression/04_C2F.html</loc>
-         <lastmod>2023-11-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-06-26</lastmod>
     </url>
 </urlset>
