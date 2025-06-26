@@ -13,9 +13,24 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v3
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Find latest Python version'
+        id: find-python-version
+        run: |
+          latest_version=$(curl -s https://www.python.org/downloads/ | grep -Eo 'Python [0-9]+\.[0-9]+\.[0-9]+' | head -n 1 | awk '{print $2}')
+          
+          echo "Latest Python version is $latest_version"
+          
+          echo "::set-output name=python-version::$latest_version"
+        shell: bash
+      - name: 'Set up Python'
+        uses: actions/setup-python@v3
         with:
-          python-version: 3.7
+          python-version: ${{ steps.find-python-version.outputs.python-version }}
+      # - uses: actions/setup-python@v3
+      #   with:
+      #     python-version: 3.7
       - run: pip install --user -r requirements.txt
       - run: mkdocs gh-deploy --force
       - run: rm -rf ./site
