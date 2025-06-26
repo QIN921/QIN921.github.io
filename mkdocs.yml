@@ -122,36 +122,36 @@ extra:
 nav:
   - 首页: index.md
   - 自我介绍: self.md
-  # - Studying:
-  #   - Dive into deep learning: deep_learning/00_Dive_into_deep_learning.md
-  #   - Image Classification: 
-  #     - AlexNet: deep_learning/01_AlexNet.md
-  #     - VGG: deep_learning/02_VGG.md
-  #     - ResNet: deep_learning/03_ResNet.md
-  #     - MobileNets: deep_learning/04_MobileNets.md
-  #     - GoogLeNet: deep_learning/05_GoogLeNet.md
-  #   - Object Detection: 
-  #     - R-CNN: deep_learning/06_R-CNN.md
-  #     - Fast R-CNN: deep_learning/07_Fast_R-CNN.md
-  #     - Faster R-CNN: deep_learning/08_Faster_R-CNN.md
-  #     - YOLO v1: deep_learning/09_YOLO_v1.md
-  #     - YOLO v2: deep_learning/10_YOLOv2.md
-  #   - Instance Segmentation:
-  #     - U-Net: deep_learning/11_U-Net.md
-  #     - PSPNet: deep_learning/12_PSPNet.md
-  #     - DeepLabv3+: deep_learning/13_DeepLabv3+.md
-  #   - Other:
-  #     - GAN: deep_learning/14_GAN.md
-  #     - Transformer: deep_learning/15_Transformer.md
-  #     - Deformable Convolutional Networks: deep_learning/16_DCN.md
-  #     - BasicVSR: deep_learning/18_RealBasicVSR.md
-  #   - Chaos: deep_learning/17_CHAOS.md
-      # - WANN：Weight Agnostic Neural Networks: deep_learning/12_WANN.md
-      # - ViT：An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale: deep_learning/13_Vit.md
-      # - SwinT：Swin Transformer： Hierarchical Vision Transformer using Shifted Windows: deep_learning/14_SwinT.md
-  # - Video Compression:
-  #   - DVC: video_compression/01_DVC.md
-  #   - FVC: video_compression/02_FVC.md
-  #   - NIFC: video_compression/03_NIFC.md
-  #   - C2F: video_compression/04_C2F.md
-  #   - CDC: video_compression/05_CDC.pdf
+  - Studying:
+    - Dive into deep learning: deep_learning/00_Dive_into_deep_learning.md
+    - Image Classification: 
+      - AlexNet: deep_learning/01_AlexNet.md
+      - VGG: deep_learning/02_VGG.md
+      - ResNet: deep_learning/03_ResNet.md
+      - MobileNets: deep_learning/04_MobileNets.md
+      - GoogLeNet: deep_learning/05_GoogLeNet.md
+    - Object Detection: 
+      - R-CNN: deep_learning/06_R-CNN.md
+      - Fast R-CNN: deep_learning/07_Fast_R-CNN.md
+      - Faster R-CNN: deep_learning/08_Faster_R-CNN.md
+      - YOLO v1: deep_learning/09_YOLO_v1.md
+      - YOLO v2: deep_learning/10_YOLOv2.md
+    - Instance Segmentation:
+      - U-Net: deep_learning/11_U-Net.md
+      - PSPNet: deep_learning/12_PSPNet.md
+      - DeepLabv3+: deep_learning/13_DeepLabv3+.md
+    - Other:
+      - GAN: deep_learning/14_GAN.md
+      - Transformer: deep_learning/15_Transformer.md
+      - Deformable Convolutional Networks: deep_learning/16_DCN.md
+      - BasicVSR: deep_learning/18_RealBasicVSR.md
+    - Chaos: deep_learning/17_CHAOS.md
+      - WANN：Weight Agnostic Neural Networks: deep_learning/12_WANN.md
+      - ViT：An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale: deep_learning/13_Vit.md
+      - SwinT：Swin Transformer： Hierarchical Vision Transformer using Shifted Windows: deep_learning/14_SwinT.md
+  - Video Compression:
+    - DVC: video_compression/01_DVC.md
+    - FVC: video_compression/02_FVC.md
+    - NIFC: video_compression/03_NIFC.md
+    - C2F: video_compression/04_C2F.md
+    # - CDC: video_compression/05_CDC.pdf
