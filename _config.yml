@@ -1,6 +1,6 @@
 locale: en-US
-title: Chuqin Zhou
-name: Chuqin Zhou
+title: Chuqin Zhou（周楚骎）
+name: Chuqin Zhou（周楚骎）
 title_separator: "-"
 description: "Chuqin Zhou — Master’s student at Shanghai Jiao Tong University"
 url: "https://qin921.github.io"
@@ -8,7 +8,7 @@ baseurl: ""
 repository: QIN921/QIN921.github.io
 author:
   avatar: github-avatar.jpg
-  name: Chuqin Zhou
+  name: Chuqin Zhou（周楚骎）
   bio: "Master’s student at Shanghai Jiao Tong University"
   location: "Shanghai, China"
   email: zhouchuqin@sjtu.edu.cn

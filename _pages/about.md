@@ -8,7 +8,7 @@ redirect_from:
   - /awards/
 ---
 
-I am a master’s student in Electronic Engineering at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), Shanghai, China. Before that, I received my bachelor’s degree in Communication Engineering from [Huazhong University of Science and Technology](https://www.hust.edu.cn/) in 2024.
+I am a master’s student in Electronic Engineering at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), supervised by Prof. [Guo Lu](https://guolusjtu.github.io/guoluhomepage/). I expect to graduate in **March 2027**. Before that, I received my bachelor’s degree in Communication Engineering from [Huazhong University of Science and Technology](https://www.hust.edu.cn/) in 2024, where I was advised by Prof. [Peng Yang](http://faculty.hust.edu.cn/pyang/en).
 
 🏅 I was awarded the **National Scholarship in 2025**.
 
@@ -17,6 +17,14 @@ I am a master’s student in Electronic Engineering at [Shanghai Jiao Tong Unive
 **Image and Video Compression, Neural Image Compression, Video Analytics.**
 
 My work explores learned image and video compression, including the distortion–perception tradeoff, trainable quality metrics, and lossless image compression. I have also worked on bandwidth-efficient edge video analytics.
+
+## 🔥 News
+
+- **2026:** Papers at **ACM MM (Oral), ECCV, TCSVT, TIP, TBC and ISCAS**, plus **LoViF workshop reports** and an **arXiv preprint**. Interned at **ByteDance** from June to August.
+- **2025:** Papers at **AAAI, ISCAS and VCIP**; received the **National Scholarship**; started a Huawei collaboration on ultra-low-bitrate facial video coding.
+- **2024:** Graduated from **HUST** and started my master’s studies at **SJTU** with Prof. Guo Lu. Began research on neural image and video compression.
+- **2023:** Published my first-author paper at **IEEE ICC 2023** and completed my research internship with Prof. Peng Yang at **HUST**.
+- **2022:** Started a research internship with Prof. Peng Yang at **HUST**, working on bandwidth-efficient edge video analytics.
 
 ## 📝 Selected Publications
 
@@ -46,7 +54,7 @@ My work explores learned image and video compression, including the distortion�
 
 **Shanghai Jiao Tong University**  
 Master of Engineering in Electronic Engineering  
-2024–2027 (expected) · Shanghai, China
+Sep. 2024–Mar. 2027 (expected) · Shanghai, China
 
 **Huazhong University of Science and Technology**  
 Bachelor of Engineering in Communication Engineering  

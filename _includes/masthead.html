@@ -6,7 +6,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button type="button" aria-label="Toggle navigation"><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{% if page.lang == 'zh-CN' %}/zh/{% else %}/{% endif %}">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{% if page.lang == 'zh-CN' %}/zh/{% else %}/{% endif %}">{% if page.lang == 'zh-CN' %}周楚骎{% else %}{{ site.title }}{% endif %}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
