@@ -1,5 +1,5 @@
 <div class="publication">
-  <h3 class="publication__title"><a href="{{ include.paper.url | escape }}">{{ include.paper.title | escape }}</a></h3>
+  <h3 class="publication__title"><a href="{{ include.paper.url | escape }}">{% if include.paper.venue_short %}[{{ include.paper.venue_short | escape }}] {% endif %}{{ include.paper.title | escape }}</a></h3>
   <p class="publication__authors">{% assign authors = include.paper.authors_preview | default: include.paper.authors %}{% for author in authors %}{% if author contains 'Chuqin Zhou' %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
   {% if include.paper.authors_preview %}<details class="publication__all-authors"><summary>All authors</summary><p>{% for author in include.paper.authors %}{% if author contains 'Chuqin Zhou' %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p></details>{% endif %}
   {% if include.paper.venue != '' %}<p class="publication__venue"><em>{{ include.paper.venue | escape }}</em></p>{% endif %}

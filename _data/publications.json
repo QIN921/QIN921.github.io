@@ -17,7 +17,8 @@
     "url": "https://ieeexplore.ieee.org/abstract/document/11664165/",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:d1gkVwhDpl0C",
     "pdf": "https://arxiv.org/pdf/2502.16163",
-    "scholar_year": "2025"
+    "scholar_year": "2025",
+    "venue_short": "TCSVT"
   },
   {
     "title": "Controllable Distortion-Perception Tradeoff Through Latent Diffusion for Neural Image Compression",
@@ -35,7 +36,8 @@
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33165",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:u-x6o8ySG0sC",
     "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/33165/35320",
-    "scholar_year": "2024"
+    "scholar_year": "2024",
+    "venue_short": "AAAI"
   },
   {
     "title": "Free-gvc: Towards training-free extreme generative video compression with temporal coherence",
@@ -53,7 +55,8 @@
     "url": "https://arxiv.org/abs/2602.09868",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:Tyk-4Ss8FVUC",
     "pdf": "https://arxiv.org/pdf/2602.09868",
-    "scholar_year": "2026"
+    "scholar_year": "2026",
+    "venue_short": "TBC"
   },
   {
     "title": "Bandwidth-efficient edge video analytics via frame partitioning and quantization optimization",
@@ -69,7 +72,8 @@
     "url": "https://ieeexplore.ieee.org/abstract/document/10279708/",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:u5HHmVD_uO8C",
     "pdf": null,
-    "scholar_year": "2023"
+    "scholar_year": "2023",
+    "venue_short": "ICC"
   },
   {
     "title": "Differentiable VMAF: A trainable metric for optimizing video compression codec",
@@ -84,7 +88,8 @@
     "url": "https://ieeexplore.ieee.org/abstract/document/11044280/",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:9yKSN-GCB0IC",
     "pdf": null,
-    "scholar_year": "2025"
+    "scholar_year": "2025",
+    "venue_short": "ISCAS"
   },
   {
     "title": "Next-Frame Decoding for Ultra-Low-Bitrate Image Compression with Video Diffusion Priors",
@@ -103,7 +108,8 @@
     "url": "https://link.springer.com/chapter/10.1007/978-3-032-37422-6_15",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:eQOLeE2rZwMC",
     "pdf": "https://arxiv.org/pdf/2603.15129",
-    "scholar_year": "2026"
+    "scholar_year": "2026",
+    "venue_short": "ECCV"
   },
   {
     "title": "Dual-Representation Image Compression at Ultra-Low Bitrates via Explicit Semantics and Implicit Textures",
@@ -120,7 +126,8 @@
     "url": "https://ieeexplore.ieee.org/abstract/document/11711195/",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:zYLM7Y9cAGgC",
     "pdf": "https://arxiv.org/pdf/2602.05213",
-    "scholar_year": "2026"
+    "scholar_year": "2026",
+    "venue_short": "TCSVT"
   },
   {
     "title": "LoViF 2026 challenge on ultra-low bitrate image compression: Methods and results",
@@ -179,7 +186,8 @@
       "Chuqin Zhou",
       "Xin Li",
       "…"
-    ]
+    ],
+    "venue_short": "ECCV Workshop"
   },
   {
     "title": "LoViF 2026 AIGC Image Compression Challenge: Methods and Results",
@@ -235,7 +243,8 @@
       "…",
       "Chuqin Zhou",
       "…"
-    ]
+    ],
+    "venue_short": "ECCV Workshop"
   },
   {
     "title": "Vcip 2025 ultra low-bitrate video compression challenge",
@@ -252,7 +261,8 @@
     "url": "https://ieeexplore.ieee.org/abstract/document/11396877/",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:YsMSGLbcyi4C",
     "pdf": null,
-    "scholar_year": "2025"
+    "scholar_year": "2025",
+    "venue_short": "VCIP"
   },
   {
     "title": "LMM-VSC: Ultra-Low Bitrate Video Compression with Semantic Understanding",
@@ -267,7 +277,8 @@
     "url": "https://ieeexplore.ieee.org/abstract/document/11562543/",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:WF5omc3nYNoC",
     "pdf": null,
-    "scholar_year": "2026"
+    "scholar_year": "2026",
+    "venue_short": "ISCAS"
   },
   {
     "title": "Recasting DiT for Extreme Image Compression with Hierarchical Visual Priors",
@@ -287,7 +298,8 @@
     "url": "https://arxiv.org/abs/2610.18607",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:UebtZRa9Y70C",
     "pdf": "https://arxiv.org/pdf/2610.18607",
-    "scholar_year": "2026"
+    "scholar_year": "2026",
+    "venue_short": "arXiv"
   },
   {
     "title": "Compressing 3D Gaussian Splatting via Cross-Representation Priors",
@@ -303,7 +315,8 @@
     "url": "https://ieeexplore.ieee.org/abstract/document/11703941/",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:roLk4NBRz8UC",
     "pdf": "https://arxiv.org/pdf/2609.23005",
-    "scholar_year": "2026"
+    "scholar_year": "2026",
+    "venue_short": "TIP"
   },
   {
     "title": "Every Packet Counts: Dispersing Information for Loss-Resilient Learned Image Compression",
@@ -319,7 +332,8 @@
     "url": "https://arxiv.org/abs/2608.11096",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:ufrVoPGSRksC",
     "pdf": "https://arxiv.org/pdf/2608.11096",
-    "scholar_year": "2026"
+    "scholar_year": "2026",
+    "venue_short": "ACM MM"
   },
   {
     "title": "Perceptual Neural Video Compression with Video Variational AutoEncoder at Low Bitrates",
@@ -338,6 +352,7 @@
     "url": "https://openreview.net/forum?id=nfOnCngWtp",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:Y0pCki6q_DkC",
     "pdf": "https://openreview.net/pdf?id=nfOnCngWtp",
-    "scholar_year": null
+    "scholar_year": null,
+    "venue_short": "Manuscript"
   }
 ]
