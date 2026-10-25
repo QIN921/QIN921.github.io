@@ -41,3 +41,11 @@ permalink: /experience/
 - Developed a latent-diffusion-based feature transformation and adaptive fusion module at the decoder, enabling continuous distortion–perception control during inference without retraining the original codec.
 - Used an auxiliary encoder to provide perception-oriented training guidance, achieving a wide controllable reconstruction range while preserving the original codec’s compression capabilities.
 - Outcomes: **Controllable Distortion-Perception Tradeoff Through Latent Diffusion for Neural Image Compression** (**AAAI 2025**, first author) and the granted patent **CN119211548B** (first student inventor).
+
+### Huazhong University of Science and Technology · Research Intern
+
+*Jun. 2022 – Jun. 2023 · Wuhan, China*
+
+- Research intern under **Prof. [Peng Yang](http://faculty.hust.edu.cn/pyang/en)** at Huazhong University of Science and Technology.
+- Worked on **Abate**, a content-aware video coding and analytics scheme. Combined structural-feature-aware frame partitioning with block-level quantization parameter selection to balance transmission data volume and video analytics accuracy.
+- Outcome: **[Bandwidth-Efficient Edge Video Analytics via Frame Partitioning and Quantization Optimization](https://ieeexplore.ieee.org/document/10279708)** (**IEEE ICC 2023**, first author).

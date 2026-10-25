@@ -37,6 +37,8 @@ My work explores learned image and video compression, including the distortion鈥
   Facial video restoration, loss-resilient reconstruction, and video-tokenizer feature coding.
 - **[Huawei Collaboration 路 Low-Bitrate Video Coding]({{ "/experience/#low-bitrate-video-coding--huawei-collaboration" | relative_url }})** 路 Jul. 2024鈥揓ul. 2025  
   Perceptual neural compression and lightweight, standards-compatible video enhancement.
+- **[HUST 路 Research Intern with Prof. Peng Yang]({{ "/experience/#huazhong-university-of-science-and-technology--research-intern" | relative_url }})** 路 Jun. 2022鈥揓un. 2023  
+  Content-aware frame partitioning and quantization for edge video analytics; ICC 2023, first author.
 
 [Full experience 鈫抅({{ "/experience/" | relative_url }})
 

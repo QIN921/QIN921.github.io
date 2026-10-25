@@ -33,6 +33,8 @@ lang: zh-CN
   人像视频修复、抗丢包神经重建与视频 Tokenizer 特征编码。
 - **[华为合作 · 低码率视频编码]({{ "/experience/#low-bitrate-video-coding--huawei-collaboration" | relative_url }})** · 2024.07–2025.07  
   感知优化神经视频压缩与轻量、标准兼容的视频增强。
+- **[华中科技大学 · 杨鹏老师课题组科研实习]({{ "/experience/#huazhong-university-of-science-and-technology--research-intern" | relative_url }})** · 2022.06–2023.06  
+  面向边缘视频分析，研究内容感知的视频帧分块与量化优化；成果发表于 ICC 2023，第一作者。
 
 [完整经历 →]({{ "/experience/" | relative_url }})
 
