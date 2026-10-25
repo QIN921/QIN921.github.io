@@ -46,7 +46,7 @@ class MigrationTests(unittest.TestCase):
 
     def test_preview_assets_and_navigation_use_current_origin(self):
         home = (SITE / 'index.html').read_text()
-        self.assertIn('href="/assets/css/main.css"', home)
+        self.assertRegex(home, r'href="/assets/css/main\.css\?v=\d+"')
         self.assertIn('href="/publications/"', home)
         self.assertIn('src="/assets/js/main.min.js"', home)
 
