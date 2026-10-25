@@ -55,7 +55,7 @@ Bachelor of Engineering in Communication Engineering
 
 - Contributed a differentiable VMAF implementation in PyTorch for neural video codec optimization, and led video-tokenizer feature coding for perceptual reconstruction.
 - Led the design and end-to-end training of lightweight pre- and post-processing networks for real-time, standards-compatible video enhancement on edge devices.
-- The non-real-time solution saved **21% bitrate versus VVC at matched LPIPS**. The real-time solution achieved approximately **3× bandwidth savings** at comparable or better subjective quality; the proposed solution was ready for integration into Huawei MeeTime.
+- The proposed solution was ready for integration into Huawei MeeTime.
 - Outcomes include **Differentiable VMAF** (**ISCAS 2025**, second author) and **Perceptual Neural Video Compression with Video Variational AutoEncoder at Low Bitrates**.
 
 ### Controllable Distortion–Perception Tradeoff for Neural Image Compression
