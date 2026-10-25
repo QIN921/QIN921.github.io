@@ -45,3 +45,5 @@ body {
 .masthead__menu .greedy-nav { flex: 1; min-width: 0; }
 .site-language-switch { flex-shrink: 0; font-size: 13px; padding: .3em .7em; border: 1px solid #e0e6eb; border-radius: 4px; color: #36404a; white-space: nowrap; }
 .site-language-switch:hover { color: #285278; border-color: #285278; }
+
+.page__content [id] { scroll-margin-top: 90px; }

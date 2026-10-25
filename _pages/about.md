@@ -18,6 +18,28 @@ I am a master’s student in Electronic Engineering at [Shanghai Jiao Tong Unive
 
 My work explores learned image and video compression, including the distortion–perception tradeoff, trainable quality metrics, and lossless image compression. I have also worked on bandwidth-efficient edge video analytics.
 
+## 📝 Selected Publications
+
+- **[Dual-Representation Image Compression](https://ieeexplore.ieee.org/abstract/document/11711195/)** · TCSVT 2026 · First author  
+  Explicit semantics and implicit textures for image compression at ultra-low bitrates.
+- **[Every Packet Counts](https://arxiv.org/abs/2608.11096)** · ACM MM 2026, Oral · Co-first author  
+  Loss-resilient learned image compression through information redistribution and packetization.
+- **[Controllable Distortion–Perception Tradeoff](https://ojs.aaai.org/index.php/AAAI/article/view/33165)** · AAAI 2025 · First author  
+  Adjustable reconstruction quality through latent diffusion, without retraining the original codec.
+
+[All publications and patents →]({{ "/publications/" | relative_url }})
+
+## 💼 Experience
+
+- **[ByteDance · Video Coding Intern]({{ "/experience/#bytedance--video-coding-and-model-deployment-intern" | relative_url }})** · Jun.–Aug. 2026  
+  Content-adaptive encoding, VMAF prediction, and model training and evaluation.
+- **[Huawei Collaboration · Ultra-Low-Bitrate Video Coding]({{ "/experience/#ultra-low-bitrate-hd-facial-video-coding--huawei-collaboration" | relative_url }})** · Sep. 2025–Present  
+  Facial video restoration, loss-resilient reconstruction, and video-tokenizer feature coding.
+- **[Huawei Collaboration · Low-Bitrate Video Coding]({{ "/experience/#low-bitrate-video-coding--huawei-collaboration" | relative_url }})** · Jul. 2024–Jul. 2025  
+  Perceptual neural compression and lightweight, standards-compatible video enhancement.
+
+[Full experience →]({{ "/experience/" | relative_url }})
+
 ## 🎓 Education
 
 **Shanghai Jiao Tong University**  
