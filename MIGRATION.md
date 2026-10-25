@@ -26,3 +26,7 @@ The preview is local only; no branch was pushed and no online deployment was tri
 - The Perceptual Neural Video Compression entry has no date or venue in Scholar; retained under Year not specified, with its OpenReview link.
 - Long challenge-paper author lists are collapsed; all authors remain available. Author asterisks are retained as shown in Scholar; no contribution interpretation is added.
 - No live citation counts are displayed to avoid presenting stale metrics.
+
+## Experience update — 2026-10-25
+
+Experience was rewritten in English from the owner-supplied resume dated 2026-10-20: ByteDance internship and four research projects. Dates, responsibilities, reported metrics and publication/submission status were preserved. The Huawei solution is described as ready for integration, not already deployed. Other homepage sections were left as they were. The private resume and its phone number were not copied into the website source.
