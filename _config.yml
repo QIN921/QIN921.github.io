@@ -1,0 +1,73 @@
+locale: en-US
+title: Chuqin Zhou
+name: Chuqin Zhou
+title_separator: "-"
+description: "Chuqin Zhou — Master’s student at Shanghai Jiao Tong University"
+url: "https://qin921.github.io"
+baseurl: ""
+repository: QIN921/QIN921.github.io
+author:
+  name: Chuqin Zhou
+  bio: "Master’s student at Shanghai Jiao Tong University"
+  location: "Shanghai, China"
+  email: zhouchuqin@sjtu.edu.cn
+  github: QIN921
+  ieee: "https://ieeexplore.ieee.org/author/37090056269"
+breadcrumbs: false
+future: false
+read_more: disabled
+talkmap_link: false
+comments:
+  provider: false
+analytics:
+  provider: false
+atom_feed:
+  hide: true
+include: ["_pages"]
+exclude:
+  - docs
+  - overrides
+  - scripts
+  - tests
+  - vendor
+  - .bundle
+  - .github
+  - .superpowers
+  - Gemfile
+  - Gemfile.lock
+  - Gemfile.preview
+  - Gemfile.preview.lock
+  - README.md
+  - LICENSE
+  - licenses
+  - requirements.txt
+  - mkdocs.yml
+  - MIGRATION.md
+encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+      read_time: false
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

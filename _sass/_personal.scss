@@ -1,0 +1,23 @@
+/* Match the reference academic homepage while keeping semantic headings. */
+.page__content {
+  h2 {
+    font-size: $type-size-3;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  a { text-decoration: none; }
+  a:hover, a:focus { text-decoration: underline; }
+  overflow-wrap: break-word;
+}
+/* The inherited fixed sidebar has a portrait-sized top offset. Without a
+   portrait, align the profile with the article and keep long pages usable. */
+@media screen and (min-width: $large) {
+  .sidebar {
+    position: sticky;
+    top: 2em;
+    height: auto;
+    max-height: calc(100vh - 4em);
+    padding-top: 0;
+  }
+}
+.page__content h2 { margin-top: 1.25em; }

@@ -17,3 +17,10 @@ wheelhouse*
 .clangd
 .cache
 /tmp
+_site/
+.sass-cache/
+.jekyll-cache/
+.bundle/
+/vendor/
+.superpowers/
+Gemfile.preview*
