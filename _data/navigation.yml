@@ -1,7 +1,5 @@
 main:
   - title: "Publications"
     url: /publications/
-  - title: "Awards"
-    url: /awards/
   - title: "Wiki"
     url: /wiki/

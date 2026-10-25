@@ -5,9 +5,12 @@ redirect_from:
   - /about/
   - /about.html
   - /self.html
+  - /awards/
 ---
 
 I am a master’s student in Electronic Engineering at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), Shanghai, China. Before that, I received my bachelor’s degree in Communication Engineering from [Huazhong University of Science and Technology](https://www.hust.edu.cn/) in 2024.
+
+I am a recipient of the **National Scholarship**.
 
 ## Research Interest
 
