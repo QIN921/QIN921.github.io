@@ -1,16 +1,27 @@
-/* Match the reference academic homepage while keeping semantic headings. */
-.page__content {
-  h2 {
-    font-size: $type-size-3;
-    padding-bottom: 0;
-    border-bottom: 0;
-  }
-  a { text-decoration: none; }
-  a:hover, a:focus { text-decoration: underline; }
-  overflow-wrap: break-word;
+/* Compact academic typography, shared by English and Chinese pages. */
+html { font-size: 16px; }
+body {
+  color: #36404a;
+  line-height: 1.65;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
-/* The inherited fixed sidebar has a portrait-sized top offset. Without a
-   portrait, align the profile with the article and keep long pages usable. */
+.page__title { font-size: 1.5em; line-height: 1.3; margin-bottom: .8em; }
+.page__content {
+  overflow-wrap: break-word;
+  h2 {
+    font-size: 1.25em;
+    margin-top: 1.65em;
+    padding-bottom: .4em;
+    border-bottom: 1px solid #e8edf2;
+  }
+  h3 { line-height: 1.5; }
+  a, a:visited { color: #285278; text-decoration: none; }
+  a:hover, a:focus { color: #173b5d; text-decoration: underline; }
+  p { margin-bottom: 1.1em; }
+}
+.greedy-nav { font-size: 15px; }
+.sidebar .author__name { font-size: 17px; line-height: 1.4; }
+.sidebar p, .sidebar li { font-size: 13px; }
 @media screen and (min-width: $large) {
   .sidebar {
     position: sticky;
@@ -20,16 +31,17 @@
     padding-top: 0;
   }
 }
-.page__content h2 { margin-top: 1.25em; }
-
-.publication { margin-bottom: 1.8em; }
-.publication__title { margin: 0 0 .35em; font-size: 1em; line-height: 1.45; }
+@media screen and (max-width: 599px) {
+  html { font-size: 15px; }
+  .page__title { font-size: 1.4em; }
+}
+.publication { margin-bottom: 1.65em; }
+.publication__title { margin: 0 0 .35em; font-size: 1em; line-height: 1.5; }
 .page__content .publication p { margin: 0 0 .3em; }
-.publication__links, .publication__all-authors { font-size: .8em; }
+.publication__links, .publication__all-authors { font-size: .85em; }
 .publication__all-authors { margin-bottom: .35em; }
-.publication__all-authors summary { cursor: pointer; color: $link-color; }
-
+.publication__all-authors summary { cursor: pointer; color: #285278; }
 .masthead__menu { display: flex; align-items: center; gap: 1em; }
 .masthead__menu .greedy-nav { flex: 1; min-width: 0; }
-.site-language-switch { flex-shrink: 0; font-size: .8em; padding: .35em .75em; border: 1px solid $border-color; border-radius: 4px; color: $text-color; white-space: nowrap; }
-.site-language-switch:hover { color: $link-color; border-color: $link-color; }
+.site-language-switch { flex-shrink: 0; font-size: 13px; padding: .3em .7em; border: 1px solid #e0e6eb; border-radius: 4px; color: #36404a; white-space: nowrap; }
+.site-language-switch:hover { color: #285278; border-color: #285278; }
