@@ -32,7 +32,6 @@ Bachelor of Engineering in Communication Engineering
 *Jun. 2026 – Aug. 2026*
 
 - Developed a neural-network-based content-adaptive encoding (CAE) model to replace an XGBoost baseline, predicting VMAF from pre-encoding features to guide CRF selection. Built the feature extraction, data processing, training, and evaluation pipeline.
-- Increased enhancement success for low-quality videos from **53.3% to 80%**, and quality-reduction success for saturated-quality videos from **41.8% to 50%**.
 
 ### Ultra-Low-Bitrate HD Facial Video Coding · Huawei Collaboration
 
