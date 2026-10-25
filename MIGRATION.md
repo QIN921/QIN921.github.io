@@ -17,3 +17,12 @@ A clean export of tracked source passed `bundle exec jekyll build --strict_front
 Independent review identified a `vendor/` ignore rule dropping Sass dependencies; the rule was scoped to `/vendor/`, and clean-source rebuild verified the fix.
 
 The preview is local only; no branch was pushed and no online deployment was triggered.
+
+## Scholar and avatar update — 2026-10-25
+
+- Avatar downloaded from https://github.com/QIN921.png, stored locally in images/github-avatar.jpg.
+- 15 publications read from https://scholar.google.com/citations?user=eA17fngAAAAJ&hl=zh-CN and their article detail pages. Titles, full author lists, venues, article/PDF links are stored in _data/publications.json.
+- Formal venue years are used for AAAI 2025 and TCSVT 2026, although Scholar lists their first-posted years as 2024 and 2025 respectively. Original Scholar year is retained in the data.
+- The Perceptual Neural Video Compression entry has no date or venue in Scholar; retained under Year not specified, with its OpenReview link.
+- Long challenge-paper author lists are collapsed; all authors remain available. Author asterisks are retained as shown in Scholar; no contribution interpretation is added.
+- No live citation counts are displayed to avoid presenting stale metrics.

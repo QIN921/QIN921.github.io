@@ -21,3 +21,10 @@
   }
 }
 .page__content h2 { margin-top: 1.25em; }
+
+.publication { margin-bottom: 1.8em; }
+.publication__title { margin: 0 0 .35em; font-size: 1em; line-height: 1.45; }
+.page__content .publication p { margin: 0 0 .3em; }
+.publication__links, .publication__all-authors { font-size: .8em; }
+.publication__all-authors { margin-bottom: .35em; }
+.publication__all-authors summary { cursor: pointer; color: $link-color; }

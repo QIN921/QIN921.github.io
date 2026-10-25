@@ -1,0 +1,343 @@
+[
+  {
+    "title": "Large language model for lossless image compression with visual prompts",
+    "authors": [
+      "Junhao Du",
+      "Chuqin Zhou",
+      "Ning Cao",
+      "Gang Chen",
+      "Yunuo Chen",
+      "Zhengxue Cheng",
+      "Li Song",
+      "Guo Lu",
+      "Wenjun Zhang"
+    ],
+    "year": 2026,
+    "venue": "TCSVT 2026 - IEEE Transactions on Circuits and Systems for Video Technology",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11664165/",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:d1gkVwhDpl0C",
+    "pdf": "https://arxiv.org/pdf/2502.16163",
+    "scholar_year": "2025"
+  },
+  {
+    "title": "Controllable Distortion-Perception Tradeoff Through Latent Diffusion for Neural Image Compression",
+    "authors": [
+      "Chuqin Zhou",
+      "Guo Lu",
+      "Jiangchuan Li",
+      "Xiangyu Chen",
+      "Zhengxue Cheng",
+      "Li Song",
+      "Wenjun Zhang"
+    ],
+    "year": 2025,
+    "venue": "AAAI 2025 - Annual AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33165",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:u-x6o8ySG0sC",
+    "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/33165/35320",
+    "scholar_year": "2024"
+  },
+  {
+    "title": "Free-gvc: Towards training-free extreme generative video compression with temporal coherence",
+    "authors": [
+      "Xiaoyue Ling",
+      "Chuqin Zhou",
+      "Chunyi Li",
+      "Yunuo Chen",
+      "Yuan Tian",
+      "Guo Lu",
+      "Wenjun Zhang"
+    ],
+    "year": 2026,
+    "venue": "TBC 2026 - IEEE Transactions on Broadcasting",
+    "url": "https://arxiv.org/abs/2602.09868",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:Tyk-4Ss8FVUC",
+    "pdf": "https://arxiv.org/pdf/2602.09868",
+    "scholar_year": "2026"
+  },
+  {
+    "title": "Bandwidth-efficient edge video analytics via frame partitioning and quantization optimization",
+    "authors": [
+      "Chuqin Zhou",
+      "Peng Yang",
+      "Zeyu Zhang",
+      "Chengzhi Wang",
+      "Ning Zhang"
+    ],
+    "year": 2023,
+    "venue": "ICC 2023 - IEEE International Conference on Communications",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10279708/",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:u5HHmVD_uO8C",
+    "pdf": null,
+    "scholar_year": "2023"
+  },
+  {
+    "title": "Differentiable VMAF: A trainable metric for optimizing video compression codec",
+    "authors": [
+      "Jiangchuan Li",
+      "Chuqin Zhou",
+      "Yunuo Chen",
+      "Guo Lu"
+    ],
+    "year": 2025,
+    "venue": "ISCAS 2025 - IEEE International Symposium on Circuits and Systems",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11044280/",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:9yKSN-GCB0IC",
+    "pdf": null,
+    "scholar_year": "2025"
+  },
+  {
+    "title": "Next-Frame Decoding for Ultra-Low-Bitrate Image Compression with Video Diffusion Priors",
+    "authors": [
+      "Yunuo Chen",
+      "Chuqin Zhou",
+      "Jiangchuan Li",
+      "Xiaoyue Ling",
+      "Bing He",
+      "Jincheng Dai",
+      "Li Song",
+      "Guo Lu"
+    ],
+    "year": 2026,
+    "venue": "ECCV 2026 - European Conference on Computer Vision",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-032-37422-6_15",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:eQOLeE2rZwMC",
+    "pdf": "https://arxiv.org/pdf/2603.15129",
+    "scholar_year": "2026"
+  },
+  {
+    "title": "Dual-Representation Image Compression at Ultra-Low Bitrates via Explicit Semantics and Implicit Textures",
+    "authors": [
+      "Chuqin Zhou",
+      "Xiaoyue Ling",
+      "Yunuo Chen",
+      "Jincheng Dai",
+      "Guo Lu",
+      "Wenjun Zhang"
+    ],
+    "year": 2026,
+    "venue": "TCSVT 2026 - IEEE Transactions on Circuits and Systems for Video Technology",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11711195/",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:zYLM7Y9cAGgC",
+    "pdf": "https://arxiv.org/pdf/2602.05213",
+    "scholar_year": "2026"
+  },
+  {
+    "title": "LoViF 2026 challenge on ultra-low bitrate image compression: Methods and results",
+    "authors": [
+      "Xiaoyue Ling",
+      "Chuqin Zhou",
+      "Xin Li",
+      "Guo Lu",
+      "Junxi Zhang",
+      "Qizhi Huang",
+      "Yifei Wang",
+      "Wenzhuo Ma",
+      "Zhenzhong Chen",
+      "Cheng-Yeh Chen",
+      "Fanqing Zhou",
+      "Hengyuan Na",
+      "Pukun Zhao",
+      "Tiancheng Si",
+      "Wenlong Xu",
+      "Xudong Wang",
+      "Zhimeng Huang",
+      "Jiaqi Zhang",
+      "Siwei Ma",
+      "Chuanmin Jia",
+      "Zetian Song",
+      "Xiaohan Lu",
+      "Qizhe Wang",
+      "Md Mehedi Hasan",
+      "Shah Mohammad Abdul Mannan",
+      "Dipit Saha",
+      "Ahnaf Tahmid",
+      "Mohammad Raihan Rashid",
+      "Xudong Zhang",
+      "Chuangchuang Zeng",
+      "Shien Chen",
+      "Wang Luo",
+      "Yinlin Zhu",
+      "Di Wu",
+      "Tiange Zhang",
+      "Yilin Guo",
+      "Qingtong Liu",
+      "Junjun Si",
+      "Shuhong Liao",
+      "Xiandong MENG",
+      "Qirui Chen",
+      "Shangquan Sun"
+    ],
+    "year": 2026,
+    "venue": "ECCV 2026 Workshop - European Conference on Computer Vision, The Second Workshop on Low-Level Vision Frontiers with Generative AI, Preference Optimization, Agentic Systems and World Models",
+    "url": "https://openreview.net/forum?id=CSFBAUIvM4",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:LkGwnXOMwfcC",
+    "pdf": "https://openreview.net/pdf?id=CSFBAUIvM4",
+    "scholar_year": "2026",
+    "authors_preview": [
+      "Xiaoyue Ling",
+      "Chuqin Zhou",
+      "Xin Li",
+      "…"
+    ]
+  },
+  {
+    "title": "LoViF 2026 AIGC Image Compression Challenge: Methods and Results",
+    "authors": [
+      "Xin Li",
+      "Chuanmin Jia",
+      "Yixin Gao",
+      "Jiaqi Zhang",
+      "Zhibo Chen",
+      "Dong Liu",
+      "Siwei Ma",
+      "Yiwen Ren",
+      "Yingxin Wang",
+      "Fang Liu",
+      "Xu Liu",
+      "Puhua Chen",
+      "Renjie Zou",
+      "Zhiwei Huang",
+      "Dong Jiang",
+      "Yunuo Chen",
+      "Chuqin Zhou",
+      "Xiaoyue Ling",
+      "Bing He",
+      "Jiangchuan Li",
+      "Jincheng Dai",
+      "Li Song",
+      "Guo Lu",
+      "Nitiz Khanal",
+      "Qizhi Huang",
+      "Junxi Zhang",
+      "Yifei Wang",
+      "Wenzhuo Ma",
+      "Jiancong CHEN",
+      "Tiange Zhang",
+      "Xiandong MENG",
+      "Ronggang Wang",
+      "Pengchao Wei",
+      "Ruixue Guo",
+      "Rohit Choudhary",
+      "Sally Khaidem",
+      "Qirui Chen"
+    ],
+    "year": 2026,
+    "venue": "ECCV 2026 Workshop - European Conference on Computer Vision, The Second Workshop on Low-Level Vision Frontiers with Generative AI, Preference Optimization, Agentic Systems and World Models",
+    "url": "https://openreview.net/forum?id=41hfEpLx7Z",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:_FxGoFyzp5QC",
+    "pdf": "https://openreview.net/pdf?id=41hfEpLx7Z",
+    "scholar_year": "2026",
+    "authors_preview": [
+      "Xin Li",
+      "Chuanmin Jia",
+      "Yixin Gao",
+      "…",
+      "Chuqin Zhou",
+      "…"
+    ]
+  },
+  {
+    "title": "Vcip 2025 ultra low-bitrate video compression challenge",
+    "authors": [
+      "Guo Lu",
+      "Jing Wang",
+      "Yunuo Chen",
+      "Chuqin Zhou",
+      "Yibo Shi",
+      "Kai Lin"
+    ],
+    "year": 2025,
+    "venue": "VCIP 2025 - International Conference on Visual Communications and Image Processing",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11396877/",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:YsMSGLbcyi4C",
+    "pdf": null,
+    "scholar_year": "2025"
+  },
+  {
+    "title": "LMM-VSC: Ultra-Low Bitrate Video Compression with Semantic Understanding",
+    "authors": [
+      "Chaolei Liu",
+      "Li Song",
+      "Chuqin Zhou",
+      "Guo Lu"
+    ],
+    "year": 2026,
+    "venue": "ISCAS 2026 - IEEE International Symposium on Circuits and Systems",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11562543/",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:WF5omc3nYNoC",
+    "pdf": null,
+    "scholar_year": "2026"
+  },
+  {
+    "title": "Recasting DiT for Extreme Image Compression with Hierarchical Visual Priors",
+    "authors": [
+      "Yunuo Chen",
+      "Jingnan Gao",
+      "Bing He",
+      "Jinjing Zhao",
+      "Chuqin Zhou",
+      "Xiaoyue Ling",
+      "Li Song",
+      "Guo Lu",
+      "Wenjun Zhang"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint arXiv:2610.18607",
+    "url": "https://arxiv.org/abs/2610.18607",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:UebtZRa9Y70C",
+    "pdf": "https://arxiv.org/pdf/2610.18607",
+    "scholar_year": "2026"
+  },
+  {
+    "title": "Compressing 3D Gaussian Splatting via Cross-Representation Priors",
+    "authors": [
+      "Yezheng Zhang",
+      "Huanxiong Liang",
+      "Chuqin Zhou",
+      "Guo Lu",
+      "Wenjun Zhang"
+    ],
+    "year": 2026,
+    "venue": "TIP 2026 - IEEE Transactions on Image Processing",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11703941/",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:roLk4NBRz8UC",
+    "pdf": "https://arxiv.org/pdf/2609.23005",
+    "scholar_year": "2026"
+  },
+  {
+    "title": "Every Packet Counts: Dispersing Information for Loss-Resilient Learned Image Compression",
+    "authors": [
+      "Yuhang Wei*",
+      "Chuqin Zhou*",
+      "Yibo Shi",
+      "Jing Wang",
+      "Guo Lu"
+    ],
+    "year": 2026,
+    "venue": "ACM MM Oral 2026 - ACM International Conference on Multimedia (Oral)",
+    "url": "https://arxiv.org/abs/2608.11096",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:ufrVoPGSRksC",
+    "pdf": "https://arxiv.org/pdf/2608.11096",
+    "scholar_year": "2026"
+  },
+  {
+    "title": "Perceptual Neural Video Compression with Video Variational AutoEncoder at Low Bitrates",
+    "authors": [
+      "Chuqin Zhou",
+      "Xiaoyue Ling",
+      "Yuan Tian",
+      "Kai Lin",
+      "Yibo Shi",
+      "Yuxin Zhao",
+      "Jing Wang",
+      "Guo Lu"
+    ],
+    "year": null,
+    "venue": "",
+    "url": "https://openreview.net/forum?id=nfOnCngWtp",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:Y0pCki6q_DkC",
+    "pdf": "https://openreview.net/pdf?id=nfOnCngWtp",
+    "scholar_year": null
+  }
+]

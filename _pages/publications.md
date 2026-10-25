@@ -3,22 +3,15 @@ title: "Publications"
 permalink: /publications/
 ---
 
-## 2025
+See my [Google Scholar profile](https://scholar.google.com/citations?user=eA17fngAAAAJ&hl=en) for the latest list.
 
-**Controllable Distortion-Perception Tradeoff Through Latent Diffusion for Neural Image Compression**  
-**C Zhou**, G Lu, J Li, X Chen, Z Cheng, L Song, W Zhang  
-*AAAI 2025*
+{% assign years = site.data.publications | map: "year" | compact | uniq | sort | reverse %}
+{% for year in years %}
+<h2>{{ year }}</h2>
+{% assign numeric_year = year | plus: 0 %}
+{% assign papers = site.data.publications | where: "year", numeric_year %}
+{% for paper in papers %}{% include publication.html paper=paper %}{% endfor %}
+{% endfor %}
 
-**Differentiable VMAF: A trainable metric for optimizing video compression codec**  
-J Li, **C Zhou**, Y Chen, G Lu  
-*ISCAS 2025*
-
-**Large language model for lossless image compression with visual prompts**  
-J Du, **C Zhou**, N Cao, G Chen, Y Chen, Z Cheng, L Song, G Lu, W Zhang  
-*arXiv:2502.16163*
-
-## 2023
-
-**Bandwidth-Efficent Edge Video Analytics via Frame Patitioning and Quantization Optimization**  
-**C Zhou**, P Yang, Z Zhang, C Wang, N Zhang  
-*IEEE ICC 2023*
+<h2>Year not specified</h2>
+{% for paper in site.data.publications %}{% unless paper.year %}{% include publication.html paper=paper %}{% endunless %}{% endfor %}

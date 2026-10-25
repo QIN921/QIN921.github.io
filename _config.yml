@@ -7,10 +7,12 @@ url: "https://qin921.github.io"
 baseurl: ""
 repository: QIN921/QIN921.github.io
 author:
+  avatar: github-avatar.jpg
   name: Chuqin Zhou
   bio: "Master’s student at Shanghai Jiao Tong University"
   location: "Shanghai, China"
   email: zhouchuqin@sjtu.edu.cn
+  googlescholar: "https://scholar.google.com/citations?user=eA17fngAAAAJ&hl=en"
   github: QIN921
   ieee: "https://ieeexplore.ieee.org/author/37090056269"
 breadcrumbs: false
