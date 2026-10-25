@@ -13,9 +13,6 @@ See my [Google Scholar profile](https://scholar.google.com/citations?user=eA17fn
 {% for paper in papers %}{% include publication.html paper=paper %}{% endfor %}
 {% endfor %}
 
-<h2>Year not specified</h2>
-{% for paper in site.data.publications %}{% unless paper.year %}{% include publication.html paper=paper %}{% endunless %}{% endfor %}
-
 <h2>💡 Patents</h2>
 
 - **失真-感知权衡可控的图像压缩方法、系统、介质及设备**  

@@ -33,11 +33,13 @@ class MigrationTests(unittest.TestCase):
     def test_scholar_publications_and_github_avatar(self):
         page = (SITE / 'publications/index.html').read_text()
         expected = json.loads((ROOT / '_data/publications.json').read_text())
-        self.assertEqual(len(expected), 15)
+        self.assertEqual(len(expected), 14)
         for paper in expected:
             self.assertIn(paper['title'], page)
             self.assertIn(paper['url'].replace('&', '&amp;'), page)
-        self.assertIn('Year not specified', page)
+        self.assertNotIn('Year not specified', page)
+        self.assertNotIn('Perceptual Neural Video Compression with Video Variational AutoEncoder', page)
+        self.assertIn('publication__oral', page)
         self.assertIn('Chuqin Zhou*', page)
         home = (SITE / 'index.html').read_text()
         self.assertIn('/images/github-avatar.jpg', home)

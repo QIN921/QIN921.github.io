@@ -333,26 +333,7 @@
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:ufrVoPGSRksC",
     "pdf": "https://arxiv.org/pdf/2608.11096",
     "scholar_year": "2026",
-    "venue_short": "ACM MM"
-  },
-  {
-    "title": "Perceptual Neural Video Compression with Video Variational AutoEncoder at Low Bitrates",
-    "authors": [
-      "Chuqin Zhou",
-      "Xiaoyue Ling",
-      "Yuan Tian",
-      "Kai Lin",
-      "Yibo Shi",
-      "Yuxin Zhao",
-      "Jing Wang",
-      "Guo Lu"
-    ],
-    "year": null,
-    "venue": "",
-    "url": "https://openreview.net/forum?id=nfOnCngWtp",
-    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=eA17fngAAAAJ&citation_for_view=eA17fngAAAAJ:Y0pCki6q_DkC",
-    "pdf": "https://openreview.net/pdf?id=nfOnCngWtp",
-    "scholar_year": null,
-    "venue_short": "Manuscript"
+    "venue_short": "ACM MM",
+    "oral": true
   }
 ]
