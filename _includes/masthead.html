@@ -6,18 +6,19 @@
       <nav id="site-nav" class="greedy-nav">
         <button type="button" aria-label="Toggle navigation"><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{% if page.lang == 'zh-CN' %}/zh/{% else %}/{% endif %}">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{% if page.lang == 'zh-CN' %}{{ link.title_zh | default: link.title }}{% else %}{{ link.title }}{% endif %}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <a class="site-language-switch" href="{{ base_path }}{% if page.lang == 'zh-CN' %}/{% else %}/zh/{% endif %}" lang="{% if page.lang == 'zh-CN' %}en{% else %}zh-CN{% endif %}" aria-label="{% if page.lang == 'zh-CN' %}Switch to English homepage{% else %}切换到中文主页{% endif %}">{% if page.lang == 'zh-CN' %}English{% else %}中文{% endif %}</a>
     </div>
   </div>
 </div>

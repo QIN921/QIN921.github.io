@@ -1,5 +1,10 @@
 main:
+  - title: "Experience"
+    title_zh: "经历"
+    url: /experience/
   - title: "Publications"
+    title_zh: "论文与专利"
     url: /publications/
   - title: "Wiki"
+    title_zh: "笔记"
     url: /wiki/

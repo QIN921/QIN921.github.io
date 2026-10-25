@@ -28,3 +28,8 @@
 .publication__links, .publication__all-authors { font-size: .8em; }
 .publication__all-authors { margin-bottom: .35em; }
 .publication__all-authors summary { cursor: pointer; color: $link-color; }
+
+.masthead__menu { display: flex; align-items: center; gap: 1em; }
+.masthead__menu .greedy-nav { flex: 1; min-width: 0; }
+.site-language-switch { flex-shrink: 0; font-size: .8em; padding: .35em .75em; border: 1px solid $border-color; border-radius: 4px; color: $text-color; white-space: nowrap; }
+.site-language-switch:hover { color: $link-color; border-color: $link-color; }
