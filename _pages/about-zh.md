@@ -55,3 +55,7 @@ lang: zh-CN
 **华中科技大学**  
 通信工程专业学士  
 2020–2024 · 中国武汉
+
+## 🌍 累计访客地图
+
+{% include visitors-map.html %}
