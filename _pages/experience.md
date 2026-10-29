@@ -54,8 +54,8 @@ permalink: /experience/
 
 I have served as a reviewer for:
 
-- **ICASSP** — IEEE International Conference on Acoustics, Speech and Signal Processing
-- **IEEE Transactions on Multimedia (TMM)**
-- **ECCV Workshops**
-- **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)**
+- **TMM** — IEEE Transactions on Multimedia
+- **TCSVT** — IEEE Transactions on Circuits and Systems for Video Technology
 - **IJCAI** — International Joint Conference on Artificial Intelligence
+- **ICASSP** — IEEE International Conference on Acoustics, Speech and Signal Processing
+- **LoViF (ECCV 2026 Workshop)** — The Second Workshop on Low-Level Vision Frontiers with Generative AI, Preference Optimization, Agentic Systems and World Models
