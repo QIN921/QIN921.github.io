@@ -49,3 +49,13 @@ permalink: /experience/
 - Research intern under **Prof. [Peng Yang](http://faculty.hust.edu.cn/pyang/en)** at Huazhong University of Science and Technology.
 - Worked on **Abate**, a content-aware video coding and analytics scheme. Combined structural-feature-aware frame partitioning with block-level quantization parameter selection to balance transmission data volume and video analytics accuracy.
 - Outcome: **[Bandwidth-Efficient Edge Video Analytics via Frame Partitioning and Quantization Optimization](https://ieeexplore.ieee.org/document/10279708)** (**IEEE ICC 2023**, first author).
+
+## 📝 Review
+
+I have served as a reviewer for:
+
+- **ICASSP** — IEEE International Conference on Acoustics, Speech and Signal Processing
+- **IEEE Transactions on Multimedia (TMM)**
+- **ECCV Workshops**
+- **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)**
+- **IJCAI** — International Joint Conference on Artificial Intelligence
